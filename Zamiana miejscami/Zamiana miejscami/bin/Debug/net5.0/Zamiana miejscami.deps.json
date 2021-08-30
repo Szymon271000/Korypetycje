@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Zamiana miejscami/1.0.0": {
+        "runtime": {
+          "Zamiana miejscami.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zamiana miejscami/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

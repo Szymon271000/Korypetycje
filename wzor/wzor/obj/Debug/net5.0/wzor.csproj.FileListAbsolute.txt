@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\ref\wzor.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\bin\Debug\net5.0\wzor.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\ref\wzor.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\wzor\wzor\obj\Debug\net5.0\wzor.genruntimeconfig.cache

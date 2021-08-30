@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\ref\Wzor_liczbowy.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\ref\Wzor_liczbowy.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\obj\Debug\net5.0\Wzor_liczbowy.genruntimeconfig.cache

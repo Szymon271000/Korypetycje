@@ -1,0 +1,8 @@
+﻿'Wzor_liczbowy.exe' (CoreCLR: DefaultDomain): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.8\System.Private.CoreLib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Wzor_liczbowy.exe' (CoreCLR: clrhost): Loaded 'C:\Users\huber\OneDrive\Desktop\Homeworks\Wzor_liczbowy\Wzor_liczbowy\bin\Debug\net5.0\Wzor_liczbowy.dll'. Symbols loaded.
+'Wzor_liczbowy.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.8\System.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Wzor_liczbowy.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.8\System.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Wzor_liczbowy.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.8\System.Threading.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Wzor_liczbowy.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.8\System.Text.Encoding.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The program '[13940] Wzor_liczbowy.exe: Program Trace' has exited with code 0 (0x0).
+The program '[13940] Wzor_liczbowy.exe' has exited with code 0 (0x0).
