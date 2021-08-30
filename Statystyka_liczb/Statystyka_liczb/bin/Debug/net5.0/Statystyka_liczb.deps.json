@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Statystyka_liczb/1.0.0": {
+        "runtime": {
+          "Statystyka_liczb.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Statystyka_liczb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

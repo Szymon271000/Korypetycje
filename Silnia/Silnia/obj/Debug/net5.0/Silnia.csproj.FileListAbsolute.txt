@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\ref\Silnia.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\bin\Debug\net5.0\Silnia.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\ref\Silnia.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Silnia\Silnia\obj\Debug\net5.0\Silnia.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\ref\Statystyka_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\bin\Debug\net5.0\Statystyka_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\ref\Statystyka_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Statystyka_liczb\Statystyka_liczb\obj\Debug\net5.0\Statystyka_liczb.genruntimeconfig.cache

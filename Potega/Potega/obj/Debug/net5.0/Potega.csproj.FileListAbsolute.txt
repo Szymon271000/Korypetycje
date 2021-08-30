@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\ref\Potega.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\bin\Debug\net5.0\Potega.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\ref\Potega.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Potega\Potega\obj\Debug\net5.0\Potega.genruntimeconfig.cache
