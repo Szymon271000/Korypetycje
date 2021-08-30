@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\ref\BMI.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\bin\Debug\net5.0\BMI.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\ref\BMI.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\BMI\BMI\obj\Debug\net5.0\BMI.genruntimeconfig.cache
