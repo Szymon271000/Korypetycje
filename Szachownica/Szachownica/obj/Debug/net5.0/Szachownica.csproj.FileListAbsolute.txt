@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\ref\Szachownica.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\bin\Debug\net5.0\Szachownica.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\ref\Szachownica.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Szachownica\Szachownica\obj\Debug\net5.0\Szachownica.genruntimeconfig.cache

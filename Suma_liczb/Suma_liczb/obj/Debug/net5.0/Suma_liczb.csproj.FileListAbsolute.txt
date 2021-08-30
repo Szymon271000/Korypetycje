@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\ref\Suma_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\bin\Debug\net5.0\Suma_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\ref\Suma_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Suma_liczb\Suma_liczb\obj\Debug\net5.0\Suma_liczb.genruntimeconfig.cache
