@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\ref\Dzielniki_30.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\bin\Debug\net5.0\Dzielniki_30.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\ref\Dzielniki_30.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_30\Dzielniki_30\obj\Debug\net5.0\Dzielniki_30.genruntimeconfig.cache

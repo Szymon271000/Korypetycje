@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\ref\Choinka.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\bin\Debug\net5.0\Choinka.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\ref\Choinka.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Choinka\Choinka\obj\Debug\net5.0\Choinka.genruntimeconfig.cache
