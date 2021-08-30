@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\ref\Parzysta_czy_nie.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\bin\Debug\net5.0\Parzysta_czy_nie.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\ref\Parzysta_czy_nie.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Parzysta_czy_nie\Parzysta_czy_nie\obj\Debug\net5.0\Parzysta_czy_nie.genruntimeconfig.cache

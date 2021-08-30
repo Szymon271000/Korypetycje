@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Liczby_w_przedziale/1.0.0": {
+        "runtime": {
+          "Liczby_w_przedziale.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Liczby_w_przedziale/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

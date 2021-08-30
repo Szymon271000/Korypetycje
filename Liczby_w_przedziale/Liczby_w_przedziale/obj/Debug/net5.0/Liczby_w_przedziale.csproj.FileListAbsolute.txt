@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\ref\Liczby_w_przedziale.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\bin\Debug\net5.0\Liczby_w_przedziale.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\ref\Liczby_w_przedziale.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Liczby_w_przedziale\Liczby_w_przedziale\obj\Debug\net5.0\Liczby_w_przedziale.genruntimeconfig.cache

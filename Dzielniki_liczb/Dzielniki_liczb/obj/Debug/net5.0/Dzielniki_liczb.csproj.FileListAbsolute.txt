@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.exe
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.deps.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\ref\Dzielniki_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\bin\Debug\net5.0\Dzielniki_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\ref\Dzielniki_liczb.dll
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\Homeworks\Dzielniki_liczb\Dzielniki_liczb\obj\Debug\net5.0\Dzielniki_liczb.genruntimeconfig.cache
