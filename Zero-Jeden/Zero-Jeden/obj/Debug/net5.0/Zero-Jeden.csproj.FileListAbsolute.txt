@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\ref\Zero-Jeden.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\bin\Debug\net5.0\Zero-Jeden.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\ref\Zero-Jeden.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zero-Jeden\Zero-Jeden\obj\Debug\net5.0\Zero-Jeden.genruntimeconfig.cache
