@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\ref\Wczytywanie_z_warunkami.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\bin\Debug\net5.0\Wczytywanie_z_warunkami.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\ref\Wczytywanie_z_warunkami.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Wczytywanie_z_warunkami\Wczytywanie_z_warunkami\obj\Debug\net5.0\Wczytywanie_z_warunkami.genruntimeconfig.cache
