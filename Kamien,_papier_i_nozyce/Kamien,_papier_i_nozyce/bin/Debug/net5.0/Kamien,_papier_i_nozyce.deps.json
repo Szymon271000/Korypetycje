@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Kamien,_papier_i_nozyce/1.0.0": {
+        "runtime": {
+          "Kamien,_papier_i_nozyce.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kamien,_papier_i_nozyce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
