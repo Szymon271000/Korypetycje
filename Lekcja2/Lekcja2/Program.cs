@@ -17,6 +17,8 @@ namespace Lekcja2
             {
                 Console.WriteLine("Błąd!");
             }
+
+            Console.WriteLine("Hello World!");
         }
     }
 }
