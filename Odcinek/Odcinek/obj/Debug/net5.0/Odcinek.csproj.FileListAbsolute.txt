@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\ref\Odcinek.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\bin\Debug\net5.0\Odcinek.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\ref\Odcinek.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Odcinek\Odcinek\obj\Debug\net5.0\Odcinek.genruntimeconfig.cache
