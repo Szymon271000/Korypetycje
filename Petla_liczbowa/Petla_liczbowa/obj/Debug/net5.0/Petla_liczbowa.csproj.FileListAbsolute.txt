@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\ref\Petla_liczbowa.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\bin\Debug\net5.0\Petla_liczbowa.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\ref\Petla_liczbowa.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Petla_liczbowa\Petla_liczbowa\obj\Debug\net5.0\Petla_liczbowa.genruntimeconfig.cache
