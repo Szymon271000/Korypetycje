@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\ref\Kalkulator.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\bin\Debug\net5.0\Kalkulator.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\ref\Kalkulator.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kalkulator\Kalkulator\obj\Debug\net5.0\Kalkulator.genruntimeconfig.cache
