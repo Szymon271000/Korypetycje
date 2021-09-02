@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\ref\Liczby_z_przedzialu.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\bin\Debug\net5.0\Liczby_z_przedzialu.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\ref\Liczby_z_przedzialu.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Liczby_z_przedzialu\Liczby_z_przedzialu\obj\Debug\net5.0\Liczby_z_przedzialu.genruntimeconfig.cache
