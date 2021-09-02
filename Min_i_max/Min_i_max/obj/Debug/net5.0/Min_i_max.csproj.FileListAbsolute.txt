@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\ref\Min_i_max.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\bin\Debug\net5.0\Min_i_max.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\ref\Min_i_max.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Min_i_max\Min_i_max\obj\Debug\net5.0\Min_i_max.genruntimeconfig.cache
