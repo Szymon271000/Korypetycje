@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\ref\Mnozenia.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\bin\Debug\net5.0\Mnozenia.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\ref\Mnozenia.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Mnozenia\Mnozenia\obj\Debug\net5.0\Mnozenia.genruntimeconfig.cache

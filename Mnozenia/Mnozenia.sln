@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mnozenia", "Mnozenia\Mnozenia.csproj", "{1747352A-1125-4BE5-B062-50CDB5A4F87E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1747352A-1125-4BE5-B062-50CDB5A4F87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1747352A-1125-4BE5-B062-50CDB5A4F87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1747352A-1125-4BE5-B062-50CDB5A4F87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1747352A-1125-4BE5-B062-50CDB5A4F87E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45530CC9-6F0D-438A-949B-0FB8A24F2C08}
+	EndGlobalSection
+EndGlobal
