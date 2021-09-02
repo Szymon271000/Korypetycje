@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\ref\Kwadraty_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\bin\Debug\net5.0\Kwadraty_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\ref\Kwadraty_liczb.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Kwadraty_liczb\Kwadraty_liczb\obj\Debug\net5.0\Kwadraty_liczb.genruntimeconfig.cache
