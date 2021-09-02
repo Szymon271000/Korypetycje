@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\ref\Dawaj_pasy.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\bin\Debug\net5.0\Dawaj_pasy.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\ref\Dawaj_pasy.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Dawaj_pasy\Dawaj_pasy\obj\Debug\net5.0\Dawaj_pasy.genruntimeconfig.cache
