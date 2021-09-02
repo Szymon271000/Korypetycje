@@ -1,0 +1,16 @@
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.exe
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.deps.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.runtimeconfig.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.runtimeconfig.dev.json
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\ref\Zgaduj_zgadula.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\bin\Debug\net5.0\Zgaduj_zgadula.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.csproj.AssemblyReference.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.AssemblyInfoInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.AssemblyInfo.cs
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.csproj.CoreCompileInputs.cache
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\ref\Zgaduj_zgadula.dll
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.pdb
+C:\Users\huber\OneDrive\Desktop\C#\Homeworks\Zgaduj_zgadula\Zgaduj_zgadula\obj\Debug\net5.0\Zgaduj_zgadula.genruntimeconfig.cache
