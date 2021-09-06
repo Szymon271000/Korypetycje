@@ -10,7 +10,10 @@ namespace Liczby_w_tablicy
             for (int i = 1; i < numbers.Length; i++)
             {
                 numbers[i] = i;
-                Console.WriteLine(numbers[i]);
+            }
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                Console.Write(numbers[i] + " ");
             }
             
 
