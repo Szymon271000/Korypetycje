@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liczby_w_tablicy", "Liczby_w_tablicy\Liczby_w_tablicy.csproj", "{D138FBB5-6CAB-4E54-8BAD-A359A77D0128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D138FBB5-6CAB-4E54-8BAD-A359A77D0128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D138FBB5-6CAB-4E54-8BAD-A359A77D0128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D138FBB5-6CAB-4E54-8BAD-A359A77D0128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D138FBB5-6CAB-4E54-8BAD-A359A77D0128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF0E013-845E-4FB0-B169-198B6C03ABC8}
+	EndGlobalSection
+EndGlobal
