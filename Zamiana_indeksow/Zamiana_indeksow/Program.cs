@@ -13,8 +13,9 @@ namespace Zamiana_indeksow
                 Random rnd = new Random();
                 int number = rnd.Next(1, 11);
                 numbers[i] = number;
-                Console.WriteLine(numbers[i]);
+                Console.Write(numbers[i] + " ");
             }
+            Console.WriteLine();
             Console.WriteLine("Podaj indeksy ");
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
@@ -25,7 +26,7 @@ namespace Zamiana_indeksow
                 var temp = numbers[a];
                 numbers[a] = numbers[b];
                 numbers[b] = temp;
-                Console.WriteLine(numbers[i]);
+                Console.Write(numbers[i]+ " ");
             }
         }
     }
