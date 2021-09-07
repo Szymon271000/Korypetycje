@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wymiana_ujemnych", "Wymiana_ujemnych\Wymiana_ujemnych.csproj", "{B4A1ABD2-819D-4CF9-87D5-66DCE98B403E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A1ABD2-819D-4CF9-87D5-66DCE98B403E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A1ABD2-819D-4CF9-87D5-66DCE98B403E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A1ABD2-819D-4CF9-87D5-66DCE98B403E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A1ABD2-819D-4CF9-87D5-66DCE98B403E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7155846A-E0AA-443F-AE4A-E5D3197475CD}
+	EndGlobalSection
+EndGlobal
