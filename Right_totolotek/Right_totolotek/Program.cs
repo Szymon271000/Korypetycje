@@ -8,9 +8,24 @@ namespace Right_totolotek
         {
             int[] my_numbers = new int[6];
             Console.WriteLine("Podaj swoje typy: ");
-            for (int i = 0; i < my_numbers.Length; i++)
+            for (int i = 0; i < my_numbers.Length; )
             {
-                my_numbers[i] = Convert.ToInt32(Console.In.ReadLine());
+                int x = Convert.ToInt32(Console.In.ReadLine());
+                bool znajdujeSie = false;
+                for(int j = 0; j < i; j++)
+                {
+                    if(x == my_numbers[j])
+                    {
+                        znajdujeSie = true;
+                        Console.WriteLine("Podales ta sama wartosc");
+                        break;
+                    }
+                }
+                if(znajdujeSie == false)
+                {
+                    my_numbers[i] = x;
+                    i++;
+                }
             }
             int[] computer_numbers = new int[6];
             Console.WriteLine("Wylosowano: ");
