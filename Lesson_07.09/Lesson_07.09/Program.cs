@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Lesson_07._09
 {
@@ -62,6 +63,29 @@ namespace Lesson_07._09
             Console.WriteLine(bezspacji);
 
             //Split()
+            string dane = Console.ReadLine(); //5,10,15,20
+            string[] elementy = dane.Split(","); //przecinek jest separatorem przy dzieleniu wyrazu na mniejsze
+            int[] liczby = new int[elementy.Length];
+            for (int i = 0; i < elementy.Length; i++)
+            {
+                liczby[i] = int.Parse(elementy[i]);
+            }
+
+            for (int i = 0; i < liczby.Length; i++)
+            {
+                Console.Write(liczby[i] + " ");
+            }
+            Console.WriteLine();
+
+            //Jak wczytac caly plik tekstowy jako jeden string
+            string info = File.ReadAllText(@"C:\Users\huber\OneDrive\Desktop\dane.txt");
+            Console.WriteLine(info);
+            string[] linie = info.Split("\r\n");
+
+            //Jak zapisac tekst do pliku?
+            File.WriteAllText(@"C:\Users\huber\OneDrive\Desktop\wynik.txt", "Ala ma kota");
+            File.WriteAllText(@"wynik.txt", "Ala ma kota"); //jesli nie podamy pelenj sciezki to plik stworzy sie tam gdzie wywolal sie plik exe naszej aplikacji
+
         }
     }
 }
