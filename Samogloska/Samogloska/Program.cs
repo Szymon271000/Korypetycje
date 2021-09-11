@@ -4,9 +4,9 @@ namespace Samogloska
 {
     class Program
     {
-        static bool Samogloska(char litera)
+        static bool Samogloska(string znak)
         {
-            if ((litera == 'A') || (litera == 'E') || (litera == 'I') || (litera == 'O') || (litera == 'U') || (litera == 'a') || (litera == 'e') || (litera == 'i') || (litera == 'o') || (litera == 'u'))
+            if ((znak == "A") || (znak == "a") || (znak == "E") || (znak == "e") || (znak == "I") || (znak == "i") || (znak == "O") || (znak == "o") || (znak == "U") || (znak == "u"))
             {
                 return true;
             }
@@ -17,7 +17,8 @@ namespace Samogloska
         }
         static void Main(string[] args)
         {
-            bool result = Samogloska('t');
+            string slowo = Console.ReadLine();
+            bool result = Samogloska(slowo);
             Console.WriteLine(result);
         }
     }
