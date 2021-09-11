@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamogloskiISpacje", "SamogloskiISpacje\SamogloskiISpacje.csproj", "{083DB47A-EAF0-481C-A3EE-56E33188E889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083DB47A-EAF0-481C-A3EE-56E33188E889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083DB47A-EAF0-481C-A3EE-56E33188E889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083DB47A-EAF0-481C-A3EE-56E33188E889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083DB47A-EAF0-481C-A3EE-56E33188E889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B63C2D17-70E9-4D82-A41F-A6ECF73174EC}
+	EndGlobalSection
+EndGlobal
