@@ -14,7 +14,12 @@ namespace Zeruj
         }
         static void Main(string[] args)
         {
-            
+            int[] Liczby = new int[] { 9, 10, 3, 4, 6 };
+            Zeruj(Liczby, Liczby.Length);
+            for (int i = 0; i < Liczby.Length; i++)
+            {
+                Console.Write(Liczby[i] + " ");
+            }
         }
     }
 }
