@@ -4,6 +4,33 @@ namespace FiltrowanieLiczbV2
 {
     class Program
     {
+        static int ZliczMniejsze(int[] Tablica, int liczba)
+        {
+            int counter = 0;
+            for (int i = 0; i < Tablica.Length; i++)
+            {
+                if (Tablica[i] < liczba)
+                {
+                    counter++;
+                }
+            }
+            return counter;
+        }
+        static int[] Filtruj(int[] Tablica, int liczba)
+        {
+            int counter = ZliczMniejsze(Tablica, liczba);
+            int[] Wynik = new int[counter];
+            int k = 0;
+            for (int i = 0; i < Tablica.Length; i++)
+            {
+                if (Tablica[i] < liczba)
+                {
+                    Wynik[k] = Tablica[i];
+                    k++;
+                }
+            }
+            return Wynik;
+        }
 
         static void Main(string[] args)
         {
