@@ -6,11 +6,19 @@ namespace ZamianyZnakow
     {
         static string ZamianyZnakow(string Test , int indeks)
         {
-            for (int i = 0; i < Test.Length; i*= indeks)
+            string wynik = string.Empty;
+            for (int i = 0; i < Test.Length; i++)
             {
-                Test[i] = '*';
+                if ((i+1) % indeks != 0)
+                {
+                    wynik = wynik + Test[i];
+                }
+                else
+                {
+                    wynik = wynik + "*";
+                }
             }
-            return Test;
+            return wynik;
         }
         static void Main(string[] args)
         {
