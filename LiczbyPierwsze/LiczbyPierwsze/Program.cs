@@ -4,7 +4,7 @@ namespace LiczbyPierwsze
 {
     class Program
     {
-        static int[] LiczbyPierwsze (int[] Tablica)
+        /*static int[] LiczbyPierwsze (int[] Tablica)
         {
             for (int i = 0; i < Tablica.Length; i++)
             {
@@ -17,15 +17,30 @@ namespace LiczbyPierwsze
                 }
             }
             return Tablica;
-        }
+        }*/
         static void Main(string[] args)
         {
             string Tablica = Console.ReadLine();
             string[] Numery = Tablica.Split(" ");
-            int[] myInts = Array.ConvertAll(Numery, int.Parse);
-            int[] result = LiczbyPierwsze(myInts);
-            Console.WriteLine(result);
-
+            int[] myInts = new int[Numery.Length];
+            for (int i = 0; i < myInts.Length; i++)
+            {
+                myInts[i] = int.Parse(Numery[i]);
+            }
+            for (int i = 0; i < myInts.Length; i++)
+            {
+                for (int j = 2; j < myInts[i]; j++)
+                {
+                    if (myInts[i] % j != 0)
+                    {
+                        j++;
+                    }
+                    else if (myInts[i] % j == 0)
+                    {
+                        Console.Write(myInts[i] + " ");
+                    }
+                }
+            }
         }
     }
 }
