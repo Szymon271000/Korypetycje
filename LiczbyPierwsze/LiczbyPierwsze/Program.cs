@@ -4,28 +4,40 @@ namespace LiczbyPierwsze
 {
     class Program
     {
+        static bool CzyPierwsza(int liczba)
+        {
+            int counter = 0;
+            for (int i = 1; i <= liczba; i++)
+            {
+                if (liczba % i == 0)
+                {
+                    counter++;
+                }
+            }
+            if (counter == 2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         static void Main(string[] args)
         {
-            string Tablica = Console.ReadLine();
-            string[] Numery = Tablica.Split(" ");
-            int[] myInts = new int[Numery.Length];
-            for (int i = 0; i < myInts.Length; i++)
+            string Dane = Console.ReadLine();
+            string[] Elements = Dane.Split(" ");
+            int[] Numbers = new int[Elements.Length];
+            for (int i = 0; i < Numbers.Length; i++)
             {
-                myInts[i] = int.Parse(Numery[i]);
+                Numbers[i] = int.Parse(Elements[i]);
             }
-            int counter = 0;
-            for (int i = 0; i < myInts.Length; i++)
+            for (int i = 0; i < Numbers.Length; i++)
             {
-                for (int j = 1; j <= myInts[i]; j++)
-                {
-                    if (myInts[i] % j == 0)
-                    {
-                        Console.Write(j + " ");
-                    }
-                }
-                Console.WriteLine();
+                bool result = CzyPierwsza(Numbers[i]);
+                Console.WriteLine(result);
             }
-            
+
         }
     }
 }
