@@ -4,20 +4,6 @@ namespace LiczbyPierwsze
 {
     class Program
     {
-        /*static int[] LiczbyPierwsze (int[] Tablica)
-        {
-            for (int i = 0; i < Tablica.Length; i++)
-            {
-                for (int j = 2; j < Tablica[i]; j++)
-                {
-                    if (Tablica [i] % j == 0)
-                    {
-                        return Tablica;
-                    }
-                }
-            }
-            return Tablica;
-        }*/
         static void Main(string[] args)
         {
             string Tablica = Console.ReadLine();
@@ -27,20 +13,19 @@ namespace LiczbyPierwsze
             {
                 myInts[i] = int.Parse(Numery[i]);
             }
+            int counter = 0;
             for (int i = 0; i < myInts.Length; i++)
             {
-                for (int j = 2; j < myInts[i]; j++)
+                for (int j = 1; j <= myInts[i]; j++)
                 {
-                    if (myInts[i] % j != 0)
+                    if (myInts[i] % j == 0)
                     {
-                        j++;
-                    }
-                    else if (myInts[i] % j == 0)
-                    {
-                        Console.Write(myInts[i] + " ");
+                        Console.Write(j + " ");
                     }
                 }
+                Console.WriteLine();
             }
+            
         }
     }
 }
