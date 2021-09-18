@@ -6,6 +6,11 @@ namespace SumaTablic
     {
         static int[] SumaTablic(int[] First, int[] Second)
         {
+            if (First.Length != Second.Length)
+            {
+                return null;
+            }
+
             int[] NewTablica = new int[First.Length];
             for (int i = 0; i < First.Length; i++)
             {
