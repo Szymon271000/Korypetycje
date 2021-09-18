@@ -6,22 +6,15 @@ namespace LiczbyPierwsze
     {
         static bool CzyPierwsza(int liczba)
         {
-            int counter = 0;
-            for (int i = 1; i <= liczba; i++)
+            for (int i = 2; i <= liczba / 2; i++)
             {
                 if (liczba % i == 0)
                 {
-                    counter++;
+                    return false;
                 }
             }
-            if (counter == 2)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+
+            return true;
         }
         static void Main(string[] args)
         {
