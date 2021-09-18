@@ -6,14 +6,13 @@ namespace LosowyWyraz2
     {
         static string LosowyWyraz2(int Dlugosc)
         {
-            string Slowo = "abcdefghijklmnopqrstvz";
+            string Slowo = "+-*";
             string NewWord = string.Empty;
+            Random rnd = new Random();
             for (int i = 0; i < Dlugosc; i++)
             {
-                Random rnd = new Random();
-                int month = rnd.Next(Slowo[0], Slowo[21]);
-                char z = (char)month;
-                NewWord = NewWord + z;
+                int index = rnd.Next(0, Slowo.Length);
+                NewWord = NewWord + Slowo[index];
             }
 
             return NewWord;
