@@ -6,11 +6,7 @@ namespace CoDrugi
     {
         static int[] CoDrugiElement(int[] Tablica)
         {
-            int counter = 0;
-            for (int i = 1; i < Tablica.Length; i*= 2)
-            {
-                counter++;
-            }//every two elements
+            int counter =  Tablica.Length / 2;
 
             int[] NewTablica = new int[counter];
             for (int i = 0; i < NewTablica.Length; i++)
