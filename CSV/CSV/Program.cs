@@ -14,27 +14,27 @@ namespace CSV
             for(int i = 0; i < Users.Length; i++)
             {
                 string[] user = Users[i].Split(",");
-                for (int j = 0; j < user.Length; j++)
-                {
+
                     if (user[4] == "Female")
                     {
                         counter++;
                     }
-                }
-                if (user[1].StartsWith("A"))
+                
+                if (user[1].StartsWith("A") && user[2].StartsWith("T"))
                 {
-                    Console.WriteLine(user[1]);
-                }
-                if (user[2].StartsWith("T"))
-                {
-                    Console.WriteLine(user[2]);
+                    Console.WriteLine(user[1] + " "+ user[2]);
                 }
                 if (user[3].EndsWith(".pl"))
                 {
                     counter2++;
                 }
             }
-            
+            Console.WriteLine(counter);
+            Console.WriteLine();
+
+            Console.WriteLine(counter2);
+            Console.WriteLine();
+
         }
     }
 }
