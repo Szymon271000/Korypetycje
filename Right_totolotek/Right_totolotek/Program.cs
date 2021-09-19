@@ -28,10 +28,10 @@ namespace Right_totolotek
                 }
             }
             int[] computer_numbers = new int[6];
+            Random rnd = new Random();
             Console.WriteLine("Wylosowano: ");
             for (int i = 0; i < computer_numbers.Length; i++)
             {
-                Random rnd = new Random();
                 int number = rnd.Next(1, 43);
                 computer_numbers[i] = number;
             }
