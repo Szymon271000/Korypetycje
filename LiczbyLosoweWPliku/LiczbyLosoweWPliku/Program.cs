@@ -13,6 +13,17 @@ namespace LiczbyLosoweWPliku
                 Console.Write(ListaDoPokazania[i] + " ");
             }
         }
+
+        static string Wyraz(List<int> ListIntow)
+        {
+            string Slowo = string.Empty;
+            for (int i = 0; i < ListIntow.Count; i++)
+            {
+                Slowo += ListIntow[i] + " ";
+            }
+            return Slowo;
+        }
+
         static void Main(string[] args)
         {
             string info = File.ReadAllText(@"C:\Users\huber\OneDrive\Desktop\LiczbyLosoweWplikuDane.txt");
@@ -25,41 +36,24 @@ namespace LiczbyLosoweWPliku
             }
 
             List<int> Lista1 = new List<int>();
-            List<int> Lista2 = new List<int>(); 
-            List<int> Lista3 = new List<int>();
 
             Random rnd = new Random();
 
             for (int i = 0; i < Numbers[0]; i++)
             {
-                int Number = rnd.Next(0, Numbers[0]);
+                int Number = rnd.Next(Numbers[1], Numbers[2]);
                 Lista1.Add(Number);
             }
 
-            for (int i = 0; i < Numbers[1]; i++)
-            {
-                int Number = rnd.Next(0, Numbers[1]);
-                Lista2.Add(Number);
-            }
-
-            for (int i = 0; i < Numbers[2]; i++)
-            {
-                int Number = rnd.Next(0, Numbers[2]);
-                Lista3.Add(Number);
-            }
 
             Pokaz(Lista1);
             Console.WriteLine();
-            Pokaz(Lista2);
-            Console.WriteLine();
-            Pokaz(Lista3);
-            Console.WriteLine();
 
 
-            File.WriteAllText(@"C:\Users\huber\OneDrive\Desktop\losowe.txt", Lista1);
-            File.WriteAllText(@"C:\Users\huber\OneDrive\Desktop\losowe.txt", Lista2);
-            File.WriteAllText(@"C:\Users\huber\OneDrive\Desktop\losowe.txt", Lista3);
 
+            string Lista1Intow = Wyraz(Lista1);
+
+            File.WriteAllText(@"C:\Users\huber\OneDrive\Desktop\losowe.txt", Lista1Intow);
         }
     }
 }

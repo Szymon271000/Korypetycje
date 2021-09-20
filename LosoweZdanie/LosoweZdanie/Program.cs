@@ -10,7 +10,7 @@ namespace LosoweZdanie
             List<string> MojaLista = new List<string>();
             string NewSentence = string.Empty;
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Podaj slowo: ");
                 string slowo = Console.ReadLine();
@@ -25,6 +25,7 @@ namespace LosoweZdanie
                 NewSentence = NewSentence + MojaLista[slowo] + " ";
             }
 
+            NewSentence = Char.ToUpper(NewSentence[0]) + NewSentence.Substring(1);
             Console.WriteLine(NewSentence);
         }
     }
