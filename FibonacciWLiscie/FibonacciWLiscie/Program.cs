@@ -17,6 +17,7 @@ namespace FibonacciWLiscie
             {
                 Console.WriteLine(MojaLista[i] + " ");
             }
+            
         }
     }
 }
