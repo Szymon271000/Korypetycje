@@ -60,20 +60,20 @@ namespace AnalizaLiczbWPliku
             Console.WriteLine(min);
             Console.WriteLine(max);
 
-            bool Prawda = true;
-            int CounterPositive = 0;
+            bool czyDodatnie = true;
 
             for (int i = 0; i < Numbers.Length; i++)
             {
-                if (Numbers[i] > 0)
+                if (Numbers[i] < 0)
                 {
-                    CounterPositive++;
+                    czyDodatnie = false;
+                    break;
                 }
             }
-            if (CounterPositive == Numbers.Length)
-            {
-                Console.WriteLine(Prawda);
-            }
+
+            Console.WriteLine(czyDodatnie);
+
+
             List<long> ListaOdDO = new List<long>();
 
             for (int i = 0; i < Numbers.Length; i++)
@@ -92,13 +92,22 @@ namespace AnalizaLiczbWPliku
                 {
                     ListOdDoPrzez3.Add(ListaOdDO[i]);
                 }
+                else
+                {
+                    break;
+                }
             }
 
             bool Right = true;
+            bool False = false;
 
             if (ListaOdDO.Count == ListOdDoPrzez3.Count)
             {
                 Console.WriteLine(Right);
+            }
+            else
+            {
+                Console.WriteLine(False);
             }
 
             long SumaParzystych = 0;
@@ -113,26 +122,20 @@ namespace AnalizaLiczbWPliku
 
             Console.WriteLine(SumaParzystych);
 
-            List<string> ZJedynka = new List<string>();
+            List<long> ZJedynka = new List<long>();
 
             for (int i = 0; i < Numbers.Length; i++)
             {
-                ZJedynka.Add(Numbers[i].ToString());
-            }
-
-            int CounterZJedynka = 0;
-
-            for (int i = 0; i < ZJedynka.Count; i++)
-            {
-                if (ZJedynka[i].Contains("1"))
+                if(Numbers[i].ToString().Contains("1"))
                 {
-                    CounterZJedynka++;
+                    ZJedynka.Add(Numbers[i]);
                 }
             }
 
-            Console.WriteLine(CounterZJedynka);
+            Console.WriteLine(ZJedynka.Count);
 
-            long MaxPrzedzial = 0;
+
+            long MaxPrzedzial = long.MinValue;
 
             for (int i = 0; i < Numbers.Length; i++)
             {
@@ -147,7 +150,7 @@ namespace AnalizaLiczbWPliku
             }
 
             Console.WriteLine(MaxPrzedzial);
-
+            
 
         }
     }
