@@ -23,7 +23,7 @@ namespace Stozek
             Wysokosc = wysokosc;
         }
 
-        public double PolePodstawowe { get => Math.PI * Promien * Promien; }
+        public double PolePodstawowe => Math.PI * Promien * Promien; //to dziala jak get
 
         public double Objetosc { get => (PolePodstawowe * Wysokosc) / 3; }
 
