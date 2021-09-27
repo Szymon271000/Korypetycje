@@ -11,38 +11,41 @@ namespace Zbiornik
         public int NumerZbiornika;
         public int Pojemnosc;
         public int StanWody;
+        private static int counter = 1;
 
         public Zbiornik()
         {
             StanWody = 0;
+            NumerZbiornika = counter;
+            counter++;
+            Pojemnosc = 0;
         }
 
-        public Zbiornik(int numerZbiornika, int pojemnosc, int stanWody)
+        public Zbiornik(int pojemnosc)
         {
-            NumerZbiornika = numerZbiornika;
+            NumerZbiornika = counter;
+            counter++;
             Pojemnosc = pojemnosc;
-            StanWody = stanWody;
+            StanWody = 0;
         }
 
-        public int Dolej
+        public void Dolej(int value)
         {
-            set
-            {
-                if (value >= 0 && value <= Pojemnosc)
+         
+                if (value >= 0 && value + StanWody <= Pojemnosc)
                 {
                      StanWody += value; 
                 }
-            }
+            
         }
-        public int Odlej
+        public void Odlej(int value)
         {
-            set
-            {
-                if (value >= 0 && value <= Pojemnosc && StanWody > 0)
+            
+                if (value >= 0 && StanWody - value >= 0)
                 {
                     StanWody -= value;
                 }
-            }
+            
         }
 
         public override string ToString()

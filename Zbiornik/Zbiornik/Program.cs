@@ -6,14 +6,15 @@ namespace Zbiornik
     {
         static void Main(string[] args)
         {
-            Zbiornik Z1 = new Zbiornik(numerZbiornika: 1, pojemnosc: 200, stanWody: 0);
-            Console.WriteLine(Z1);
-            Z1.Dolej = 100;
-            Console.WriteLine(Z1);
-            Z1.Odlej = 50;
-            Console.WriteLine(Z1);
-            Zbiornik Z2 = new Zbiornik(numerZbiornika: 2, pojemnosc: 1000, stanWody: 500);
-            Console.WriteLine(Z2);
+            Zbiornik z1 = new Zbiornik(200);
+            Console.WriteLine(z1);
+            z1.Dolej(100);
+            Console.WriteLine(z1);
+            z1.Odlej(50);
+            Console.WriteLine(z1);
+            Zbiornik z2 = new Zbiornik(1000);
+            z2.Dolej(500);
+            Console.WriteLine(z2);
         }
     }
 }
