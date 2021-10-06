@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Koszyk
 {
-    class Telefony
+    class Telefon
     {
         private string Model;
         private string Producent;
@@ -21,14 +21,14 @@ namespace Koszyk
             } 
         }
 
-        public Telefony(string model, string producent, float cena)
+        public Telefon(string model, string producent, float cena)
         {
             Model = model;
             Producent = producent;
             Cena = cena;
         }
 
-        public Telefony()
+        public Telefon()
         {
             Model = "5";
             Producent = "Apple";

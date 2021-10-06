@@ -8,16 +8,16 @@ namespace Koszyk
 {
     class Koszyk
     {
-        private List<Telefony> telefonies;
+        private List<Telefon> telefonies;
 
         public Koszyk()
         {
-            telefonies = new List<Telefony>();
+            telefonies = new List<Telefon>();
         }
 
-        public List<Telefony> Telefonies { get => telefonies;}
+        public List<Telefon> Telefonies { get => telefonies;}
 
-        public void AddTelefon(Telefony u)
+        public void AddTelefon(Telefon u)
         {
             Telefonies.Add(u);
         }
