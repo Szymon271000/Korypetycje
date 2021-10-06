@@ -70,6 +70,7 @@ namespace Lekcja05._10
 
             //Deserializacja obiektu
             Client w = Deserializuj("client.xml");
+            Console.WriteLine(w);
 
 
         }

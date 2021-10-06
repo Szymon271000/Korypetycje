@@ -44,5 +44,10 @@ namespace Lekcja05._10
             xml.Serialize(textWriter, this); //this = obiekt ktory wykonuje ta metode
             textWriter.Close();
         }
+
+        public override string ToString()
+        {
+            return $"{Name} , {Surname}";
+        }
     }
 }
