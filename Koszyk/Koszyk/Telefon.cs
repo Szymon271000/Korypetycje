@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Koszyk
 {
-    class Telefon
+    public class Telefon
     {
         private string Model;
         private string Producent;

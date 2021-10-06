@@ -1,9 +1,19 @@
 ﻿using System;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace Koszyk
 {
     class Program
     {
+        static Koszyk Deserializuj(string nazwaPliku)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Koszyk));
+            StreamReader reader = new StreamReader(nazwaPliku);
+            Koszyk wczytany = xmlSerializer.Deserialize(reader) as Koszyk;
+            reader.Close();
+            return wczytany;
+        }
         static void Main(string[] args)
         {
             Telefon T1 = new Telefon(model: "13", producent: "Apple", cena: 1499.99f);
@@ -19,10 +29,13 @@ namespace Koszyk
             Koszyk1.Telefonies.Add(T4);
             Koszyk1.Telefonies.Add(T5);
             Console.WriteLine(Koszyk1);
+            Koszyk1.SaveXML("koszyk.xml");
 
             float Suma = Koszyk1.Suma();
             Console.WriteLine(Suma);
-            
+
+            Koszyk Koszyk2 = Deserializuj("koszyk.xml");
+            Console.WriteLine(Koszyk2);
         }
     }
 }

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Koszyk
 {
-    class Koszyk
+    public class Koszyk
     {
         private List<Telefon> telefonies;
 
@@ -41,6 +43,14 @@ namespace Koszyk
             }
 
             return suma;
+        }
+
+        public void SaveXML(string fileName)
+        {
+            XmlSerializer xml = new XmlSerializer(typeof(Koszyk));
+            TextWriter textWriter = new StreamWriter(fileName);
+            xml.Serialize(textWriter, this);
+            textWriter.Close();
         }
     }
 }
