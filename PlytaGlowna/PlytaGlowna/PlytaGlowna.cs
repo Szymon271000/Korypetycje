@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace PlytaGlowna
 {
-    class PlytaGlowna
+    public class PlytaGlowna
     {
         private List<Ram> rams;
         private string Producent;
@@ -18,19 +20,13 @@ namespace PlytaGlowna
             MaksymalnyRozmiar = maksymalnyRozmiar;
             rams = new List<Ram>();
         }
+        public PlytaGlowna()
+        {
+
+        }
 
         public void AddRam(Ram u)
         {
-            //int suma = 0;
-            //for (int i = 0; i < Rams.Count; i++)
-            //{
-                //if (suma <= MaksymalnyRozmiar)
-                //{
-                //    suma = suma + Rams[i].Pojemnosc1;
-                    //Rams.Add(u);
-              //  }
-            //}
-
             if(IleGB() + u.Pojemnosc1 <= MaksymalnyRozmiar)
             {
                 Rams.Add(u);
@@ -61,7 +57,13 @@ namespace PlytaGlowna
             }
             return Text;
 
-            //Prefab w Unity i ogólny mały wstęp
+        }
+        public void SaveXML(string fileName)
+        {
+            XmlSerializer xml = new XmlSerializer(typeof(PlytaGlowna));
+            TextWriter textWriter = new StreamWriter(fileName);
+            xml.Serialize(textWriter, this);
+            textWriter.Close();
         }
     }
 }

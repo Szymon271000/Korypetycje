@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PlytaGlowna
 {
-    class Ram
+    public class Ram
     {
         private string Producent;
         private int Pojemnosc;
@@ -26,6 +26,10 @@ namespace PlytaGlowna
         {
             Producent = producent;
             Pojemnosc = pomjemnosc;
+        }
+        public Ram()
+        {
+
         }
 
 

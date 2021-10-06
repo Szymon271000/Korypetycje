@@ -27,6 +27,8 @@ namespace PlytaGlowna
             Console.WriteLine("trzy ramy");
             Console.WriteLine(p1);
 
+            p1.SaveXML("plytaglowna.xml");
+
             int suma = p1.IleGB();
             Console.WriteLine(suma);
             Console.WriteLine(p1);
