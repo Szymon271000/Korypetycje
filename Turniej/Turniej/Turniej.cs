@@ -37,18 +37,16 @@ namespace Turniej
         public Gracz Zwyciezca()
         {
             int max = 0;
+            Gracz maxGracz = null;
             for (int i = 0; i < Gracze.Count; i++)
             {
-                if (Gracze[i].Punkty1 > max)
+                if (Gracze[i].Punkty1 >= max)
                 {
                     max = Gracze[i].Punkty1;
-                }
-                if (Gracze[i].Punkty1 == max)
-                {
-                    return Gracze[i];
+                    maxGracz = Gracze[i];
                 }
             }
-            return null;
+            return maxGracz;
         }
     }
 }
