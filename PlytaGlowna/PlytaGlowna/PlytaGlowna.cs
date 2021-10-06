@@ -21,15 +21,33 @@ namespace PlytaGlowna
 
         public void AddRam(Ram u)
         {
+            //int suma = 0;
+            //for (int i = 0; i < Rams.Count; i++)
+            //{
+                //if (suma <= MaksymalnyRozmiar)
+                //{
+                //    suma = suma + Rams[i].Pojemnosc1;
+                    //Rams.Add(u);
+              //  }
+            //}
+
+            if(IleGB() + u.Pojemnosc1 <= MaksymalnyRozmiar)
+            {
+                Rams.Add(u);
+            }
+            else
+            {
+                Console.WriteLine("NIe mozna dodac wiecej ramu!");
+            }
+        }
+        public int IleGB()
+        {
             int suma = 0;
             for (int i = 0; i < Rams.Count; i++)
             {
                 suma = suma + Rams[i].Pojemnosc1;
-                if (suma < MaksymalnyRozmiar)
-                {
-                    Rams.Add(u);
-                }
             }
+            return suma;
         }
 
         public List<Ram> Rams { get => rams; }
@@ -42,6 +60,8 @@ namespace PlytaGlowna
                 Text += Rams[i] + "\n";
             }
             return Text;
+
+            //Prefab w Unity i ogólny mały wstęp
         }
     }
 }

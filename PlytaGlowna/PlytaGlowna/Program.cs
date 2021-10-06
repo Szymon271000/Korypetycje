@@ -15,8 +15,20 @@ namespace PlytaGlowna
             Console.WriteLine(r3);
 
             PlytaGlowna p1 = new PlytaGlowna("Gigabyte", 16);
+            Console.WriteLine("Pusta");
+            Console.WriteLine(p1);
             p1.AddRam(r1);
+            Console.WriteLine("Jeden ram");
+            Console.WriteLine(p1);
             p1.AddRam(r2);
+            Console.WriteLine("Dwa ramy");
+            Console.WriteLine(p1);
+            p1.AddRam(r3);
+            Console.WriteLine("trzy ramy");
+            Console.WriteLine(p1);
+
+            int suma = p1.IleGB();
+            Console.WriteLine(suma);
             Console.WriteLine(p1);
         }
     }
