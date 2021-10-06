@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Turniej
 {
-    class Gracz
+    public class Gracz
     {
         private string Imie;
         private string Nazwisko;
@@ -17,6 +17,10 @@ namespace Turniej
             Imie = imie;
             Nazwisko = nazwisko;
             Punkty = punkty;
+        }
+        public Gracz()
+        {
+
         }
 
         public int Punkty1 { get => Punkty;

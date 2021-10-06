@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Turniej
 {
-    class Turniej
+    public class Turniej
     {
         private List<Gracz> gracze;
         private string Imie;
@@ -15,6 +17,10 @@ namespace Turniej
         {
             this.Imie = imie;
             gracze = new List<Gracz>();
+        }
+        public Turniej()
+        {
+
         }
 
         public List<Gracz> Gracze { get => gracze;}
@@ -47,6 +53,14 @@ namespace Turniej
                 }
             }
             return maxGracz;
+        }
+
+        public void SaveXML(string fileName)
+        {
+            XmlSerializer xml = new XmlSerializer(typeof(Turniej));
+            TextWriter textWriter = new StreamWriter(fileName);
+            xml.Serialize(textWriter, this);
+            textWriter.Close();
         }
     }
 }
