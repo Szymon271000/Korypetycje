@@ -1,9 +1,19 @@
 ﻿using System;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace PlytaGlowna
 {
     class Program
     {
+        static PlytaGlowna Desieralizuj(string nazwaPliku)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(PlytaGlowna));
+            StreamReader reader = new StreamReader(nazwaPliku);
+            PlytaGlowna wczytany = xmlSerializer.Deserialize(reader) as PlytaGlowna;
+            reader.Close();
+            return wczytany;
+        }
         static void Main(string[] args)
         {
             Ram r1 = new Ram("Kingstone", 8);
@@ -32,6 +42,9 @@ namespace PlytaGlowna
             int suma = p1.IleGB();
             Console.WriteLine(suma);
             Console.WriteLine(p1);
+
+            PlytaGlowna p2 = Desieralizuj("plytaglowna.xml");
+            Console.WriteLine(p2);
         }
     }
 }

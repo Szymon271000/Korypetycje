@@ -16,9 +16,9 @@ namespace PlytaGlowna
 
         public PlytaGlowna(string producent, int maksymalnyRozmiar)
         {
-            Producent = producent;
-            MaksymalnyRozmiar = maksymalnyRozmiar;
-            rams = new List<Ram>();
+            Producent1 = producent;
+            MaksymalnyRozmiar1 = maksymalnyRozmiar;
+            Rams1 = new List<Ram>();
         }
         public PlytaGlowna()
         {
@@ -27,7 +27,7 @@ namespace PlytaGlowna
 
         public void AddRam(Ram u)
         {
-            if(IleGB() + u.Pojemnosc1 <= MaksymalnyRozmiar)
+            if(IleGB() + u.Pojemnosc1 <= MaksymalnyRozmiar1)
             {
                 Rams.Add(u);
             }
@@ -46,8 +46,11 @@ namespace PlytaGlowna
             return suma;
         }
 
-        public List<Ram> Rams { get => rams; }
-        
+        public List<Ram> Rams { get => Rams1; }
+        public List<Ram> Rams1 { get => rams; set => rams = value; }
+        public string Producent1 { get => Producent; set => Producent = value; }
+        public int MaksymalnyRozmiar1 { get => MaksymalnyRozmiar; set => MaksymalnyRozmiar = value; }
+
         public override string ToString()
         {
             string Text = "Plyta Glowna \n ";

@@ -22,9 +22,11 @@ namespace PlytaGlowna
             }
         }
 
+        public string Producent1 { get => Producent; set => Producent = value; }
+
         public Ram(string producent, int pomjemnosc)
         {
-            Producent = producent;
+            Producent1 = producent;
             Pojemnosc = pomjemnosc;
         }
         public Ram()
@@ -36,7 +38,7 @@ namespace PlytaGlowna
 
         public override string ToString()
         {
-            return $"Ram producenta {Producent} ma pojemnosc {Pojemnosc1}";
+            return $"Ram producenta {Producent1} ma pojemnosc {Pojemnosc1}";
 
         }
     }
