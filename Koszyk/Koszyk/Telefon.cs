@@ -21,23 +21,26 @@ namespace Koszyk
             } 
         }
 
+        public string Model1 { get => Model; set => Model = value; }
+        public string Producent1 { get => Producent; set => Producent = value; }
+
         public Telefon(string model, string producent, float cena)
         {
-            Model = model;
-            Producent = producent;
+            Model1 = model;
+            Producent1 = producent;
             Cena = cena;
         }
 
         public Telefon()
         {
-            Model = "5";
-            Producent = "Apple";
+            Model1 = "5";
+            Producent1 = "Apple";
             Cena = 99.99f;
         }
 
         public override string ToString()
         {
-            return $"Model {Model}, Producent {Producent}, Cena {Cena}";
+            return $"Model {Model1}, Producent {Producent1}, Cena {Cena}";
         }
     }
 }
