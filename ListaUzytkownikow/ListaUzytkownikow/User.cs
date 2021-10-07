@@ -19,7 +19,7 @@ namespace ListaUzytkownikow
 
         public User(string name, string surname)
         {
-            id = counter;
+            Id = counter;
             counter++;
             this.name = name;
             this.surname = surname;
@@ -27,10 +27,11 @@ namespace ListaUzytkownikow
 
         public string Name { get => name; set => name = value; }
         public string Surname { get => surname; set => surname = value; }
+        public int Id { get => id; set => id = value; }
 
         public override string ToString()
         {
-            return $"User {id} ma na imie {name} i nazwisko {surname}";
+            return $"User {Id} ma na imie {name} i nazwisko {surname}";
         }
     }
 
