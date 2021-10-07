@@ -35,6 +35,9 @@ namespace Turniej
             Console.WriteLine(Zwyciezcza);
             Console.WriteLine();
             Console.WriteLine();
+
+            Turniej t2 = Deserializuj("turniej.xml");
+            Console.WriteLine(t2);
         }
     }
 }

@@ -14,8 +14,8 @@ namespace Turniej
 
         public Gracz(string imie, string nazwisko, int punkty)
         {
-            Imie = imie;
-            Nazwisko = nazwisko;
+            Imie1 = imie;
+            Nazwisko1 = nazwisko;
             Punkty = punkty;
         }
         public Gracz()
@@ -33,9 +33,12 @@ namespace Turniej
             }
         }
 
+        public string Imie1 { get => Imie; set => Imie = value; }
+        public string Nazwisko1 { get => Nazwisko; set => Nazwisko = value; }
+
         public override string ToString()
         {
-            return $"Gracz: {Imie} {Nazwisko} {Punkty1}";
+            return $"Gracz: {Imie1} {Nazwisko1} {Punkty1}";
         }
     }
 }

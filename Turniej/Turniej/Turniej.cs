@@ -15,19 +15,21 @@ namespace Turniej
 
         public Turniej(string imie)
         {
-            this.Imie = imie;
-            gracze = new List<Gracz>();
+            this.Imie1 = imie;
+            Gracze1 = new List<Gracz>();
         }
         public Turniej()
         {
 
         }
 
-        public List<Gracz> Gracze { get => gracze;}
+        public List<Gracz> Gracze { get => Gracze1;}
+        public List<Gracz> Gracze1 { get => gracze; set => gracze = value; }
+        public string Imie1 { get => Imie; set => Imie = value; }
 
         public override string ToString()
         {
-            string text = $"Turniej {Imie} \n";
+            string text = $"Turniej {Imie1} \n";
             for (int i = 0; i < Gracze.Count; i++)
             {
                 text += Gracze[i] + "\n";
