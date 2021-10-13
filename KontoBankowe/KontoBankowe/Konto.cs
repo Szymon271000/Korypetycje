@@ -9,7 +9,7 @@ namespace KontoBankowe
     class Konto
     {
         private float stankonta;
-        private int debet;
+        private float debet;
         private float oprocentowanie;
         private string pin;
 
@@ -21,7 +21,7 @@ namespace KontoBankowe
 
         public void Wyplac(int kwota)
         {
-            if (kwota <= stankonta)
+            if (kwota < stankonta || debet > kwota)
             {
                 float roznica = stankonta - kwota;
                 stankonta = roznica;
@@ -39,8 +39,8 @@ namespace KontoBankowe
 
         public float SetDebet(float kwota)
         {
-            stankonta = kwota;
-            return stankonta;
+            debet = kwota;
+            return debet;
         }
 
         public void SetPin(string Newpin)
@@ -57,8 +57,7 @@ namespace KontoBankowe
 
         public void Kapitalizacja()
         {
-            // ask how to use SetDebet(stankonta)
-            float NowyStanKonta = stankonta - 500 + ((stankonta -500) *(oprocentowanie / 12)); //SetDebet(stankonta)// 
+            float NowyStanKonta = (stankonta * (oprocentowanie / 12)) + stankonta;//stankonta - debet + ((stankonta - debet) * (oprocentowanie / 12)); //- 500 + ((stankonta -500) *(oprocentowanie / 12)); //SetDebet(stankonta)// 
             stankonta = NowyStanKonta;
         }
 

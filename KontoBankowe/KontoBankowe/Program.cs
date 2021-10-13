@@ -21,9 +21,10 @@ namespace KontoBankowe
                 k.Wplac(1000);
                 k.PozazStan();
             }
-            k.Kapitalizacja();
-            k.PozazStan();
-            k.SetPin("123");
+             Console.WriteLine();
+             k.Kapitalizacja();
+             k.PozazStan();
+             k.SetPin("123");
             
         }
     }
