@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekcja11.10Dziecinienie", "Lekcja11.10Dziecinienie\Lekcja11.10Dziecinienie.csproj", "{16FBF40E-BA8F-4B79-8B66-C48165A21F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FBF40E-BA8F-4B79-8B66-C48165A21F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FBF40E-BA8F-4B79-8B66-C48165A21F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FBF40E-BA8F-4B79-8B66-C48165A21F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FBF40E-BA8F-4B79-8B66-C48165A21F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD17C674-7E46-46D5-8EFB-37D71FA9ECE2}
+	EndGlobalSection
+EndGlobal
