@@ -21,7 +21,7 @@ namespace KontoBankowe
 
         public void Wyplac(int kwota)
         {
-            if (kwota < stankonta || debet > kwota)
+            if (kwota < stankonta + debet && kwota >= 0)
             {
                 float roznica = stankonta - kwota;
                 stankonta = roznica;
@@ -33,6 +33,11 @@ namespace KontoBankowe
         }
         public void Wplac(float kwota)
         {
+            if(kwota <= 0)
+            {
+                return;
+            }
+
             float suma = kwota + stankonta;
             stankonta = suma;
         }
@@ -45,7 +50,8 @@ namespace KontoBankowe
 
         public void SetPin(string Newpin)
         {
-            if (Newpin.Length != 4)
+            bool sukces = int.TryParse(Newpin, out int liczba);
+            if (Newpin.Length != 4 || sukces == false)
             {
                 Console.WriteLine("Podany numer ma bledny format");
             }
