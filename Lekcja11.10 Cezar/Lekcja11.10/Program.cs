@@ -37,7 +37,7 @@ namespace Lekcja11._10
                 if (Alfabet.Contains(UserText[i]))
                 {
                     int Index = Alfabet.IndexOf(UserText[i]);
-                    int IndexDiff = (Index - k) % Alfabet.Length;
+                    int IndexDiff = (Alfabet.Length + Index - k) % Alfabet.Length;
                     char NowaLiterka = Alfabet[IndexDiff];
                     NoweSlowo = NoweSlowo + NowaLiterka;
                 }
