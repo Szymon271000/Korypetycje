@@ -48,6 +48,26 @@ namespace Lekcja11._10Dziecinienie
             p1.Add(k6);
 
             Console.WriteLine(p1);
+
+            Produkt p = new Telefon("Samsung", 799.99f, "A50", 1, 2, Procesor.SamsungExynos2100, "Android", 4, 64, 64);
+            p = k4;
+            Console.WriteLine();
+            Console.WriteLine(p);
+
+            List<Produkt> produkty = new List<Produkt>();
+            produkty.Add(t1);
+            produkty.Add(t2);
+            produkty.Add(t3);
+            produkty.Add(k4);
+            produkty.Add(k5);
+            produkty.Add(k6);
+
+            Console.WriteLine();
+            Console.WriteLine();
+            foreach (var item in produkty)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
