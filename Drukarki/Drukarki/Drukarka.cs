@@ -29,7 +29,7 @@ namespace Drukarki
 
         public void Drukuj()
         {
-            if (iloscTuszu < 0 )
+            if (iloscTuszu <= 0 )
             {
                 throw new BrakTuszuException();
             }

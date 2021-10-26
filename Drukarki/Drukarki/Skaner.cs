@@ -27,7 +27,14 @@ namespace Drukarki
 
         public void Skanuj()
         {
-            Console.WriteLine($"Skaner moze zeskanowac kartke w {szybkosc}");
+            if (szybkosc <= 0)
+            {
+                throw new SzybkoscUjemnaException();
+            }
+            else
+            {
+                Console.WriteLine($"Drukarka moze skanowac kartke w {szybkosc} sekundach");
+            }
         }
 
         public override string ToString()

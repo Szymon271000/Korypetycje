@@ -24,6 +24,10 @@ namespace Drukarki
                 {
                     marka = value;
                 }
+                else
+                {
+                    throw new MarkaPustaException();
+                }
             } 
         }
         public string Model { get => model; 
@@ -32,6 +36,10 @@ namespace Drukarki
                 if (!string.IsNullOrWhiteSpace(value))
                 {
                     model = value;
+                }
+                else
+                {
+                    throw new ModelPustyException();
                 }
             }
         }
