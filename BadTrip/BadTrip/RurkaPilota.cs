@@ -8,10 +8,10 @@ namespace BadTrip
 {
     class RurkaPilota: ICzujnik
     {
-        private string dataProdukcji;
+        private DateTime dataProdukcji;
         public int ilosc;
 
-        public RurkaPilota(string dataProdukcji, int ilosc)
+        public RurkaPilota(DateTime dataProdukcji, int ilosc)
         {
             this.dataProdukcji = dataProdukcji;
             this.ilosc = ilosc;
@@ -19,42 +19,30 @@ namespace BadTrip
 
         public int Losowanie()
         {
-            dataProdukcji.Split("/");
-            string[] datestring = new string[dataProdukcji.Length];
-            int[] date = new int[3];
-            for (int i = 0; i < date.Length; i++)
+            int koniecPrzedzialu;
+            if (DateTime.Now.Year - dataProdukcji.Year > 10)
             {
-                date[i] = int.Parse(datestring[i]);
-            }
-            if (2021 - date[2] > 10)
-            {
-                Random rnd = new Random();
-                int suma = 0;
-                for (int i = 0; i < ilosc; i++)
-                {
-                    int number = rnd.Next(0, 41);
-                    suma = suma + number;
-                }
-                int srednia = suma / ilosc;
-                return srednia;
+                koniecPrzedzialu = 41;
             }
             else
             {
-                Random rnd = new Random();
-                int suma = 0;
-                for (int i = 0; i < ilosc; i++)
-                {
-                    int number = rnd.Next(0, 31);
-                    suma = suma + number;
-                }
-                int srednia = suma / ilosc;
-                return srednia;
+                koniecPrzedzialu = 31;
             }
+
+            Random rnd = new Random();
+            int suma = 0;
+            for (int i = 0; i < ilosc; i++)
+            {
+                int number = rnd.Next(0, koniecPrzedzialu);
+                suma = suma + number;
+            }
+            int srednia = suma / ilosc;
+            return srednia;
         }
       
-        public bool Alarm(int temperatura)
+        public bool Alarm()
         {
-            temperatura = Losowanie();
+            int temperatura = Losowanie();
             if (temperatura > 25)
             {
                 return true;

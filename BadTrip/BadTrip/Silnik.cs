@@ -23,9 +23,9 @@ namespace BadTrip
             return temperatura;
         }
         
-        public bool Alarm(int temperatura)
+        public bool Alarm()
         {
-            temperatura = Policz();
+            int temperatura = Policz();
             if (temperatura > 2000)
             {
                 return true;

@@ -8,6 +8,6 @@ namespace BadTrip
 {
     interface ICzujnik
     {
-        bool Alarm(int temperatura);
+        bool Alarm();
     }
 }

@@ -20,7 +20,7 @@ namespace BadTrip
             if (czyWylaczony == true)
             {
                 Random rnd = new Random();
-                int number = rnd.Next(0, 31);
+                int number = rnd.Next(0, 90);
                 return number;
             }
             else
@@ -29,9 +29,9 @@ namespace BadTrip
             }
         }
 
-        public bool Alarm(int temperatura)
+        public bool Alarm()
         {
-            temperatura = Wynik();
+            int temperatura = Wynik();
             if (temperatura > 80)
             {
                 return true;
