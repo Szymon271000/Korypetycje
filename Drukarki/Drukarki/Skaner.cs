@@ -22,19 +22,16 @@ namespace Drukarki
                 {
                     value = szybkosc;
                 }
+                else
+                {
+                    throw new SzybkoscUjemnaException();
+                }
             }
         } 
 
         public void Skanuj()
         {
-            if (szybkosc <= 0)
-            {
-                throw new SzybkoscUjemnaException();
-            }
-            else
-            {
-                Console.WriteLine($"Drukarka moze skanowac kartke w {szybkosc} sekundach");
-            }
+              Console.WriteLine($"Drukarka moze skanowac kartke w {szybkosc} sekundach");
         }
 
         public override string ToString()
