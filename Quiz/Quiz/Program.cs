@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Quiz
@@ -8,7 +9,7 @@ namespace Quiz
 
         static void Main(string[] args)
         {
-            string info = File.ReadAllText(@"C:\Users\huber\OneDrive\Desktop\Quizquestions.txt");
+            /*string info = File.ReadAllText(@"C:\Users\huber\OneDrive\Desktop\Quizquestions.txt");
             string[] pytania = info.Split("\n");
             int counter = 0;
             bool wynik = false;
@@ -47,7 +48,11 @@ namespace Quiz
             else
             {
                 Console.WriteLine($"Bledna odpowiedz. Poprawne odpowiedzi: 0");
-            }
+            }*/
+            PolaPytan polaPytan = new PolaPytan();
+            polaPytan.DodajPytanie();
+            Console.WriteLine(polaPytan);
+            //polaPytan.Losuj();
         }
     }
 }
