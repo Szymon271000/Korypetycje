@@ -15,28 +15,16 @@ namespace TestApp
     }
     class Wiersz: Tekst
     {
-        private string rodzaj;
+        private Rodzaj rodzaj;
 
         public Wiersz(string tresc, Rodzaj rodzaj): base (tresc)
         {
-           
-        }
-        public int IloscLiter()
-        {
-            int ilosc = 0;
-            foreach (char letter in Tresc)
-            {
-                if (char.IsLetter(letter))
-                {
-                    ilosc++;
-                }
-            }
-            return ilosc;
+            this.rodzaj = rodzaj;
         }
         public override float ObliczWartosc()
         {
             float wynik = 0;
-            if (rodzaj == "sylabiczny")
+            if (rodzaj == Rodzaj.sylabiczny)
             {
                 wynik = (float)(IloscLiter() * 3);
             }

@@ -17,29 +17,17 @@ namespace TestApp
             this.tytul = tytul;
         }
 
-        public int IloscLiter()
-        {
-            int ilosc = 0;
-            foreach (char letter in Tresc)
-            {
-                if (char.IsLetter(letter))
-                {
-                    ilosc++;
-                }
-            }
-            return ilosc;
-        }
         public override float ObliczWartosc()
         {
-            float wynik = 0;
-            if (autor == "Stephen Prata")
-            {
-                wynik = (float)(IloscLiter() * 0.5);
-                
-            }
-            else if (autor == "Jerzy Grebosz")
+            float wynik;
+            if (autor == "Stephen Prata" || autor == "Jerzy Grebosz")
             {
                 wynik = (float)(IloscLiter() * 0.7);
+                
+            }
+            else
+            {
+                wynik = (float)(IloscLiter() * 0.5);
                 
             }
             return wynik;

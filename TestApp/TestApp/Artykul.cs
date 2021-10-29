@@ -16,32 +16,21 @@ namespace TestApp
             this.dataWydania = dataWydania;
             this.nazwaCzasopisma = nazwaCzasopisma;
         }
-        public int IloscLiter()
-        {
-            int ilosc = 0;
-            foreach (char letter in Tresc)
-            {
-                if (char.IsLetter(letter))
-                {
-                    ilosc++;
-                }
-            }
-            return ilosc;
-        }
+        
         public override float ObliczWartosc()
         {
-            float wynik = 0;
-            if (DateTime.Now.Year - dataWydania.Year < 6)
+            float wynik;
+            if (nazwaCzasopisma == "Gazeta Polska")
+            {
+                wynik = 0;
+            }
+            else if (DateTime.Now.Year - dataWydania.Year < 6)
             {
                 wynik = (float)(IloscLiter() * 0.1);
             }
-            else if ((DateTime.Now.Year - dataWydania.Year > 6) && (nazwaCzasopisma != "Gazeta Polska"))
-            {
-                wynik = (float)(IloscLiter() * 0.2);
-            }
             else
             {
-                wynik = 0;
+                wynik = (float)(IloscLiter() * 0.2);
             }
             return wynik;
         }

@@ -32,5 +32,18 @@ namespace TestApp
         {
             return $"Tekst id: {Id} {Tresc}";
         }
+
+        public int IloscLiter()
+        {
+            int ilosc = 0;
+            foreach (char letter in Tresc)
+            {
+                if (char.IsLetter(letter))
+                {
+                    ilosc++;
+                }
+            }
+            return ilosc;
+        }
     }
 }
