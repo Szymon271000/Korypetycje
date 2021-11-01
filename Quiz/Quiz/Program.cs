@@ -9,35 +9,26 @@ namespace Quiz
 
         static void Main(string[] args)
         {
-            /*string info = File.ReadAllText(@"C:\Users\huber\OneDrive\Desktop\Quizquestions.txt");
-            string[] pytania = info.Split("\n");
+            PytaniaRepository pytania = new PytaniaRepository();
+            pytania.Wczytaj(@"C:\Users\huber\OneDrive\Desktop\Quizquestions.txt");
+
             int counter = 0;
             bool wynik = false;
-            Random rnd = new Random();
+
             while (wynik == false)
             {
-                    int NumerLosowany = rnd.Next(0, pytania.Length);
-                    string LosowanePytanie = pytania[NumerLosowany];
-                    Console.WriteLine(LosowanePytanie); 
-                    string Input = Console.ReadLine();
-
-                    if (LosowanePytanie == pytania[0] && (Input != "2"))
-                    {
-                        wynik = true;
-                    }
-                    if (LosowanePytanie == pytania[1] && (Input != "1"))
-                    {
-                        wynik = true;
-                    }
-                    if (LosowanePytanie == pytania[2] && (Input != "1"))
-                    {
-                        wynik = true;
-                    }
-                    if (wynik == false)
-                    {
-                        Console.WriteLine("Poprawna odpowiedz");
-                    }
-                    counter++;                  
+                Pytanie p = pytania.WylosujPytanie();
+                Console.WriteLine(p); 
+                int Input = int.Parse(Console.ReadLine());
+                if(Input - 1 == p.PoprawnaNr)
+                {
+                    counter++;
+                    Console.WriteLine("Poprawna odpowiedz");
+                }
+                else
+                {
+                    wynik = true;
+                }
             }
 
 
@@ -48,11 +39,7 @@ namespace Quiz
             else
             {
                 Console.WriteLine($"Bledna odpowiedz. Poprawne odpowiedzi: 0");
-            }*/
-            PolaPytan polaPytan = new PolaPytan();
-            polaPytan.DodajPytanie();
-            Console.WriteLine(polaPytan);
-            //polaPytan.Losuj();
+            }
         }
     }
 }
