@@ -33,7 +33,7 @@ namespace PogodaWPolsce
 
             foreach (var miasto in miasta)
             {
-                if (miasto.Value < 19.86)
+                if (miasto.Value < miasta["Poznan"])
                 {
                     Console.WriteLine(miasto);
                 }
@@ -50,21 +50,31 @@ namespace PogodaWPolsce
             Console.WriteLine(max);
 
             float min = float.MaxValue;
+            string minMiasto = string.Empty;
             foreach (var miasto in miasta)
             {
                 if (miasto.Value < min)
                 {
                     min = miasto.Value;
+                    minMiasto = miasto.Key;
                 }
             }
-            Console.WriteLine(min);
+            Console.WriteLine(minMiasto);
 
             Console.WriteLine();
-            foreach (var ordered in miasta.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value))
+
+            //foreach (var ordered in miasta.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value))
+            //{
+            //    Console.WriteLine(ordered.Value);
+            //}
+
+            var lista = new List<float>(miasta.Values);
+            lista.Sort();
+            lista.Reverse();
+            foreach (var item in lista)
             {
-                Console.WriteLine(ordered.Value);
+                Console.Write(item + " ");
             }
-            
         }
     }
 }
