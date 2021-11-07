@@ -9,10 +9,10 @@ namespace Parking
         {
             Samochod s1 = new Samochod("BMW", "X1", DateTime.Parse("05/11/2020"));
             Samochod s2 = new Samochod("Mercedes", "A-120", DateTime.Parse("06/10/2011"));
-            Samochod s3 = new Samochod("Audi", "A4", DateTime.Parse("06/11/2018"));
-            Samochod s4 = new Samochod("Peugeout", "370", DateTime.Parse("01/02/2020"));
-            Samochod s5 = new Samochod("Renault", "Clio", DateTime.Parse("06/12/2019"));
-            Samochod s6 = new Samochod("Alfa_Romeo", "Stelvio", DateTime.Parse("04/03/2021"));
+            Samochod s3 = new Samochod("Audi", "A4", DateTime.Parse("06/11/2018").ToUniversalTime());
+            Samochod s4 = new Samochod("Peugeout", "370", DateTime.Parse("01/02/2020").ToUniversalTime());
+            Samochod s5 = new Samochod("Renault", "Clio", DateTime.Parse("06/12/2019").ToUniversalTime());
+            Samochod s6 = new Samochod("Alfa_Romeo", "Stelvio", DateTime.Parse("04/03/2021").ToUniversalTime());
 
             PlacParkingowy p1 = new PlacParkingowy("A");
             PlacParkingowy p2 = new PlacParkingowy("B");
