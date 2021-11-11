@@ -25,7 +25,7 @@ namespace Parking
 
         public override string ToString()
         {
-            return $"Samochod: {marka} {model} {rejestracja}";
+            return $"Samochod: {marka} {model} {rejestracja.ToShortDateString()}";
         }
     }
 }
