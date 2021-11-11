@@ -10,6 +10,12 @@ namespace Lekcja08._11_2_
     {
         private List<T> lista = new List<T>();
 
+        public T this[int i]
+        {
+            get { return lista[i]; }
+            set { lista[i] = value; }
+        }
+
         public void Push(T element)
         {
             lista.Add(element);

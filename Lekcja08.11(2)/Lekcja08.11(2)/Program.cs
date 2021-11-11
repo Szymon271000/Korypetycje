@@ -12,6 +12,25 @@ namespace Lekcja08._11_2_
                 Console.WriteLine(item);
             }
         }
+
+        static (int, int) MinMax(int[] tablica)
+        {
+            int min = tablica[0];
+            int max = tablica[0];
+            for (int i = 0; i < tablica.Length; i++)
+            {
+                if(tablica[i] > max)
+                {
+                    max = tablica[i];
+                }
+                if(tablica[i] < min)
+                {
+                    min = tablica[i];
+                }
+            }
+            return (min, max);
+        }
+
         static void Main(string[] args)
         {
             List<string> slowa = new List<string>
@@ -29,6 +48,14 @@ namespace Lekcja08._11_2_
             stos.Push(30);
 
             Console.WriteLine(stos.Pop());
+            Console.WriteLine(stos[0]);
+
+            var tablica = new int[] { 10, 5, 1, 0, 8, 9, 100, 5, 1, 4, 11 };
+            (int minimum, int maximum) = MinMax(tablica);
+            Console.WriteLine($"Min: {minimum} Max: {maximum}");
+
+            var wynik = MinMax(tablica);
+            Console.WriteLine($"Min: {wynik.Item1} Max: {wynik.Item2}");
         }
     }
 }
