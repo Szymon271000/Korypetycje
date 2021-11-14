@@ -6,23 +6,18 @@ using System.Threading.Tasks;
 
 namespace Katalog
 {
-    class Autor
+    class Autor: Osoba
     {
-        private string imie;
-        private string nazwisko;
+        private string narodowosc;
 
-        public Autor(string imie, string nazwisko)
+        public Autor(string imie, string nazwisko, string narodowosc): base (imie, nazwisko)
         {
-            this.Imie = imie;
-            this.Nazwisko = nazwisko;
+            this.narodowosc = narodowosc;
         }
-
-        public string Imie { get => imie; set => imie = value; }
-        public string Nazwisko { get => nazwisko; set => nazwisko = value; }
 
         public override string ToString()
         {
-            return $"Auto nazywa sie {imie} {nazwisko}";
+            return $"Auto nazywa sie {Imie} {Nazwisko} {narodowosc}";
         }
     }
 }
