@@ -20,7 +20,7 @@ namespace Katalog
 
         public Pozycja ZnajdzPozycjepoTytule(string tytul)
         {
-            {
+            
                 for (int i = 0; i < position.Count; i++)
                 {
                     if (position[i].Tytul == tytul)
@@ -29,7 +29,7 @@ namespace Katalog
                     }
                 }
                 return null;
-            }
+            
         }
 
         public Pozycja ZnajdzPozycjePoId(int id)

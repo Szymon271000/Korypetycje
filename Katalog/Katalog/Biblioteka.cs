@@ -11,7 +11,6 @@ namespace Katalog
         private string adres;
         private List<Bibliotekarz> bibliotekarzs;
         private List<Katalog> Katalog;
-        private List<Pozycja> Pozycja;
 
         public Biblioteka(string adres)
         {
@@ -31,18 +30,21 @@ namespace Katalog
             }
         }
 
-        public void DodajKatalog(Katalog k, string dzialTematyczny)
+        public void DodajKatalog(Katalog k)
         {
-            if (dzialTematyczny == k.DzialTematyczny)
-            {
-                Katalog.Add(k);
-            }
-            
+            Katalog.Add(k);
         }
 
-        public void DodajPozycje(Pozycja pozycja) 
+        public void DodajPozycje(Pozycja pozycja, string dzialTematyczny) 
         {
-            Pozycja.Add(pozycja);
+            foreach (var katalog in Katalog)
+            {
+                if(katalog.DzialTematyczny == dzialTematyczny)
+                {
+                    katalog.AddPosition(pozycja);
+                    break;
+                }
+            }
         }
 
 
@@ -55,7 +57,11 @@ namespace Katalog
         {
             for (int i = 0; i < Katalog.Count; i++)
             {
-                Katalog[i].ZnajdzPozycjepoTytule(tytul);
+                var pozycja = Katalog[i].ZnajdzPozycjepoTytule(tytul);
+                if (pozycja != null)
+                {
+                    return pozycja;
+                }
             }
             return null;
         }
@@ -77,15 +83,19 @@ namespace Katalog
         {
             for (int i = 0; i < Katalog.Count; i++)
             {
-                Katalog[i].ZnajdzPozycjePoId(id);
-            }
-            for (int i = 0; i < Pozycja.Count; i++)
-            {
-                if (Pozycja[i].Id == id)
+                var pozycja = Katalog[i].ZnajdzPozycjePoId(id);
+                if(pozycja != null)
                 {
-                    return Pozycja[i];
+                    return pozycja;
                 }
             }
+            //for (int i = 0; i < Pozycja.Count; i++)
+            //{
+            //    if (Pozycja[i].Id == id)
+            //    {
+            //        return Pozycja[i];
+            //    }
+            //}
             return null;
         }
 
@@ -102,12 +112,12 @@ namespace Katalog
         {
             for (int i = 0; i < Katalog.Count; i++)
             {
-                Console.WriteLine(Katalog[i]);
+                Katalog[i].WypiszWszystkiePozycje();
             }
-            for (int i = 0; i < Pozycja.Count; i++)
-            {
-                Console.WriteLine(Pozycja[i]);
-            }
+            //for (int i = 0; i < Pozycja.Count; i++)
+            //{
+            //    Console.WriteLine(Pozycja[i]);
+            //}
         }
     }
 }

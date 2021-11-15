@@ -8,8 +8,8 @@ namespace Katalog
 {
     interface IZarzadzaniePozycjami
     {
-        public Pozycja ZnajdzPozycjepoTytule(string tytul);
-        public Pozycja ZnajdzPozycjePoId(int id);
-        public void WypiszWszystkiePozycje();
+         Pozycja ZnajdzPozycjepoTytule(string tytul);
+         Pozycja ZnajdzPozycjePoId(int id);
+         void WypiszWszystkiePozycje();
     }
 }
