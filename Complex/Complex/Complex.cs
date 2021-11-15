@@ -27,6 +27,18 @@ namespace Complex
             return $"{liczbaRzeczywista}, {liczbaUrojona}i";
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Complex complex &&
+                   liczbaRzeczywista == complex.liczbaRzeczywista &&
+                   liczbaUrojona == complex.liczbaUrojona;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(liczbaRzeczywista, liczbaUrojona);
+        }
+
         public static Complex operator + (Complex c1, Complex c2)
         {
             return new Complex(c1.liczbaRzeczywista + c2.liczbaRzeczywista, c1.liczbaUrojona + c2.liczbaUrojona);
@@ -41,6 +53,8 @@ namespace Complex
         {
             return new Complex(c1.liczbaRzeczywista * c2.liczbaRzeczywista - c1.liczbaUrojona * c2.liczbaUrojona, c1.liczbaRzeczywista * c2.liczbaUrojona + c1.liczbaUrojona * c2.liczbaRzeczywista);
         }
+
+
 
         public static bool operator ==(Complex u1, Complex u2)
         {
