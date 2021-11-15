@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace Franki2._0
 {
-    class KursFranka: IZainteresowany
+    class KursFranka
     {
-        private float przelicznik;
-        List<Person> person = new List<Person>();
+        private double przelicznik;
+        private List<IZainteresowany> person = new List<IZainteresowany>();
 
         public KursFranka(float przelicznik)
         {
             this.Przelicznik = przelicznik;
         }
 
-        public float Przelicznik { get => przelicznik; 
+        public double Przelicznik { get => przelicznik; 
             set 
             {
-                {
+                
                     if (value != przelicznik)
                     {
                         przelicznik = value;
                         ZmianaKursu();
                     }
-                }
+                
             }
             
         }
 
-        public void DodajZainteresowanego(Person p)
+        public void DodajZainteresowanego(IZainteresowany p)
         {
             person.Add(p);
         }
@@ -39,7 +39,7 @@ namespace Franki2._0
         {
             for (int i = 0; i < person.Count; i++)
             {
-                Console.WriteLine($"Zmiana wartosci na {Przelicznik}, aktualna wartosc kredytu w zl dla {person[i].Imie} {person[i].Nazwisko} to : {person[i].Kwota * Przelicznik} zl");
+                person[i].ZmianaKursu(przelicznik);
             }
         }
     }

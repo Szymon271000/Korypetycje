@@ -23,14 +23,9 @@ namespace Franki2._0
         public string Nazwisko { get => nazwisko; set => nazwisko = value; }
         public int Kwota { get => kwota; set => kwota = value; }
 
-        public void DodajZainteresowanego(Person p)
+        public void ZmianaKursu(double przelicznik)
         {
-            throw new NotImplementedException();
-        }
-
-        public void ZmianaKursu()
-        {
-            throw new NotImplementedException();
+            Console.WriteLine($"Zmiana wartosci na {przelicznik}, aktualna wartosc kredytu w zl dla {Imie} {Nazwisko} to : {Math.Round(Kwota * przelicznik)} zl");
         }
     }
 }

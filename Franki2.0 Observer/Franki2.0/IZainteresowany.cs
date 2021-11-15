@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace Franki2._0
 {
     interface IZainteresowany
-    {
-        public void DodajZainteresowanego(Person p);
-        public void ZmianaKursu();    
+    { 
+        public void ZmianaKursu(double kurs);    
     }
 }
