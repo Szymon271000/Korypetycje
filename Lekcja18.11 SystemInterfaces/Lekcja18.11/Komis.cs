@@ -16,7 +16,7 @@ namespace Lekcja18._11
             cars.Add(c);
         }
 
-        public IEnumerator<Car> GetEnumerator()
+        public IEnumerator<Car> GetEnumerator()//IEnumerable
         {
             return cars.GetEnumerator();
         }
