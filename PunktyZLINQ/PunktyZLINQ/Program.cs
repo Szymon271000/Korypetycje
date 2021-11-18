@@ -9,24 +9,15 @@ namespace PunktyZLINQ
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            
 
-            Punkt[] punkts = new Punkt[100];
-
-
-            for (int i = 0; i < punkts.Length; i++)
+            List<Punkt> punkty = new List<Punkt>();
+            for (int i = 0; i < 100; i++)
             {
                 int number = rnd.Next(-20, 21);
                 int number2 = rnd.Next(-20, 21);
-                punkts[i] = new Punkt(number, number2);
+                punkty.Add(new Punkt(number, number2));
             }
 
-            List<Punkt> punkty = new List<Punkt>();
-            for (int i = 0; i < punkts.Length; i++)
-            {
-                punkty.Add(punkts[i]);
-            }
-            Console.WriteLine();
             for (int i = 0; i < punkty.Count; i++)
             {
                 Console.WriteLine(punkty[i]);
@@ -49,6 +40,9 @@ namespace PunktyZLINQ
             {
                 Console.WriteLine($"{xs[i]}, {ys[i]}");
             }
+
+            List<string> punktyStr = punkty.Select(x => $"({x.X}, {x.Y})").ToList();
+            punktyStr.ForEach(Console.WriteLine);
         }
     }
 }
