@@ -1,0 +1,10 @@
+Stolica Belgii?;23/10/2021; Wykonane
+Stolica Francji?;25/10/2021; Niewykonane
+Stolica Holandii?;25/10/2021; Wykonane
+Stolica Luksemburg?;25/10/2021; Niewykonane
+Stolica Niemiec?;25/10/2021; Niewykonane
+Stolica Danii?;25/10/2021; Wykonane
+Stolica Irlandii?;25/10/2021; Wykonane
+Stolica Grecji?;25/10/2021; Niewykonane
+Stolica Hiszpanii?;25/10/2021; Wykonane 
+Stolica Szwecji?;25/10/2021; Niewykonane

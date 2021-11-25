@@ -1,0 +1,18 @@
+Dopóki liczba > 0 to wykonuj
+	cyfra = liczba % 10
+	liczba = liczba / 10
+
+
+liczba = 1234
+cyfra = 1234 % 10 = 4
+
+liczba = 123
+cyfra = 123 % 10 = 3
+
+liczba = 12
+cyfra = 12 % 10 = 2
+
+liczba = 1
+cyfra = 1 % 10 = 1
+
+liczba = 0

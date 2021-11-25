@@ -1,0 +1,15 @@
+podejście pierwsze:
+żeby wylosować pojedyncza literkę należy wylosować liczbę która reprezentuje kod ASCII z przedziału dla alfabetu np 97-122 (a-z), 
+zamienic ten kod na char
+dodac tego chara do stringa wynikowego
+
+podejście drugie:
+nalezy do jakiegos stringa wypisac wszystkie litery alfabetu abcdefghi....xyz
+nastepnie wylosowac jakis indeks z tego stringa
+na podstawie tego indeksu wziac literke i dodac do nowego stringa z wynikiem
+
+
+
+liczba pierwsza:
+-policz ile dzielnikow ma liczba
+-jesli liczba ma 2 dzielniki (1 i siebie sama) to jest pierwsza
