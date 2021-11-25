@@ -6,7 +6,15 @@ namespace Lekcja18._11Databases
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataContext data = new DataContext();
+            User u = new User
+            {
+                Email = "tester@gmail.com",
+                Name = "Kowalski",
+                Password = "1234"
+            };
+            data.Add(u);
+            data.SaveChanges();
         }
     }
 }
