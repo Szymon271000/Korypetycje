@@ -16,6 +16,16 @@ namespace Lekcja18._11
             cars.Add(c);
         }
 
+        public IEnumerable<Car> ByMarka(string marka)
+        {
+            foreach (var item in cars)
+            {
+                if(item.Marka == marka)
+                {
+                    yield return item; //yield return - zwraca wartosc a pozniej wraca z powrotem do tej funckji
+                }
+            }
+        }
         public IEnumerator<Car> GetEnumerator()//IEnumerable
         {
             return cars.GetEnumerator();
@@ -45,5 +55,7 @@ namespace Lekcja18._11
         {
             return GetEnumerator();
         }
+
+
     }
 }

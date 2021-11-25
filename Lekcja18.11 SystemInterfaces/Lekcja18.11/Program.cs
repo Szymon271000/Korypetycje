@@ -1,10 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Lekcja18._11
 {
     class Program
     {
+        static IEnumerable<int> Losuj(int ile)
+        {
+            Random rand = new Random();
+            for (int i = 0; i < ile; i++)
+            {
+                yield return rand.Next(0, 21);
+            }
+        }
         static void Main(string[] args)
         {
             //Car c1 = new Car("Audi", "A4", 80000, new DateTime(2015, 06, 06));
@@ -51,6 +60,21 @@ namespace Lekcja18._11
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            foreach (var item in k.ByMarka("Audi"))
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine();
+            foreach (var item in Losuj(5))
+            {
+                Console.WriteLine(item);
+            }
+
+            var lista = Losuj(10).ToList();
         }
     }
 }
