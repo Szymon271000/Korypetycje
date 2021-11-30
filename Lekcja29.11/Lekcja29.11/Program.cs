@@ -60,8 +60,10 @@ else if (Input?.ToLower() == "sign in")
             string ?post = Console.ReadLine();
             Post post1 = new Post();
             post1.Text = post;
-            p1.Add(post1);
-            p1.SaveChanges();
+            var userdId = p1?.Users?.FirstOrDefault(x => x.Id == user.Id);
+            post1.Author = userdId;
+            p1?.Add(post1);
+            p1?.SaveChanges();
         }   
     }
 }
