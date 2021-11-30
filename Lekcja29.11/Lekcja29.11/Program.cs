@@ -15,7 +15,12 @@ if (Input?.ToLower() == "sign up") //?.ToLower() - zabezpieczenie ze jak Input b
     string ? password = Console.ReadLine();
     Console.WriteLine("Podaj znowu haslo");
     string? password2 = Console.ReadLine();
-
+    var user = p1?.Users?.FirstOrDefault(x => x.Email == email);
+    if (user != null)
+    {
+        Console.WriteLine("Taki uzytkonik juz istnieje");
+        return;
+    }
     if (password == password2)
     {
         User u1 = new User
@@ -47,7 +52,17 @@ else if (Input?.ToLower() == "sign in")
     else
     {
         Console.WriteLine("Zalogowany");
-        //tutaj kod tworzenia nowego posta
+        Console.WriteLine("Chcesz dodac posta?");
+        string ?input = Console.ReadLine();
+        if (input?.ToLower() == "tak")
+        {
+            Console.WriteLine("Napisz post: ");
+            string ?post = Console.ReadLine();
+            Post post1 = new Post();
+            post1.Text = post;
+            p1.Add(post1);
+            p1.SaveChanges();
+        }   
     }
 }
 
