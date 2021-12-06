@@ -16,5 +16,7 @@ namespace Lekcja29._11
         [Required]
         public string? Password { get; set; }
         public DateTime DateTime { get; set; } = DateTime.Now;
+        public byte[]? PasswordHash { get; set; }
+        public byte[]? PasswordSalt { get; set; }
     }
 }

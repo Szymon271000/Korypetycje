@@ -1,6 +1,16 @@
 ﻿/*int? x = null;
 Console.WriteLine(x);*/
 using Lekcja29._11;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
+using System.Text;
+
+void CreatePassword(string password, out byte[] passwordHash, out byte[] passwordSalt)
+{
+    HMACSHA512 hmac = new HMACSHA512();
+    passwordSalt = hmac.Key;
+    passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+}
 
 PostContext p1 = new PostContext();
 Console.WriteLine("Do you want to sign in or sign up");
@@ -23,11 +33,14 @@ if (Input?.ToLower() == "sign up") //?.ToLower() - zabezpieczenie ze jak Input b
     }
     if (password == password2)
     {
+        CreatePassword(password, out byte[] passwordHash, out byte[] passwordSalt);
         User u1 = new User
         {
             Imie = imie,
             Password = password,
-            Email = email
+            Email = email,
+            PasswordHash = passwordHash,
+            PasswordSalt = passwordSalt
         };
         p1.Add(u1);
         p1.SaveChanges();
@@ -60,11 +73,32 @@ else if (Input?.ToLower() == "sign in")
             string ?post = Console.ReadLine();
             Post post1 = new Post();
             post1.Text = post;
-            var userdId = p1?.Users?.FirstOrDefault(x => x.Id == user.Id);
-            post1.Author = userdId;
+            post1.Author = user;
             p1?.Add(post1);
             p1?.SaveChanges();
-        }   
+        }
+        else
+        {
+            List<Post> posty = p1.Posts.Include(x => x.Author).ToList();
+            for (int i = 0; i < posty.Count; i++)
+            {
+                var NumberOfLikes = p1.Likes.Include(x => x.Post).Count(x => x.Post.Id == posty[i].Id);
+                Console.WriteLine($"{i + 1}. {posty[i]} liczba likow: {NumberOfLikes} ");
+                
+            }
+            Console.WriteLine("Checesz dodac like ?");
+            string ?inputlike = Console.ReadLine();
+            if (inputlike == "yes")
+            {
+                Console.WriteLine("Podaj id posta: ");
+                int numerPosta = int.Parse(Console.ReadLine());
+                var like = new Like();
+                like.User = user;
+                like.Post = posty[numerPosta - 1];
+                p1.Add(like);
+                p1.SaveChanges();
+            }
+        }
     }
 }
 

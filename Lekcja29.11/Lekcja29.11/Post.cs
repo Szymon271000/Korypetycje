@@ -15,7 +15,11 @@ namespace Lekcja29._11
         [Required]
         public User? Author { get; set; }
 
-        public DateTime PostingDate { get; set; } = DateTime.Now; 
+        public DateTime PostingDate { get; set; } = DateTime.Now;
 
+        public override string? ToString()
+        {
+            return $"{Text} uzytkowanika {Author.Imie}";
+        }
     }
 }
