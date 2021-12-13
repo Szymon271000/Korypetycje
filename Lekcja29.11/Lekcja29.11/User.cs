@@ -13,8 +13,6 @@ namespace Lekcja29._11
         public string? Imie { get; set; } //? od teraz te pola moga tez przyjmowac null
         [Required, EmailAddress]
         public string? Email { get; set; }
-        [Required]
-        public string? Password { get; set; }
         public DateTime DateTime { get; set; } = DateTime.Now;
         public byte[]? PasswordHash { get; set; }
         public byte[]? PasswordSalt { get; set; }

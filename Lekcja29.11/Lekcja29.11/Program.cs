@@ -12,6 +12,20 @@ void CreatePassword(string password, out byte[] passwordHash, out byte[] passwor
     passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
 }
 
+bool CorrectPassword(string password, byte[] passwordHash, byte[] passwordSalt)
+{
+    HMACSHA512 hmac = new HMACSHA512(passwordSalt);
+    byte[] passwordHash2 = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+    for(int i = 0; i < passwordHash.Length; i++)
+    {
+        if(passwordHash[i] != passwordHash2[i])
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
 PostContext p1 = new PostContext();
 Console.WriteLine("Do you want to sign in or sign up");
 string? Input = Console.ReadLine();
@@ -37,7 +51,6 @@ if (Input?.ToLower() == "sign up") //?.ToLower() - zabezpieczenie ze jak Input b
         User u1 = new User
         {
             Imie = imie,
-            Password = password,
             Email = email,
             PasswordHash = passwordHash,
             PasswordSalt = passwordSalt
@@ -57,13 +70,18 @@ else if (Input?.ToLower() == "sign in")
     string ?email = Console.ReadLine();
     Console.WriteLine("Podaj haslo: ");
     string ?password = Console.ReadLine();
-    var user = p1?.Users?.FirstOrDefault(x => x.Email == email && x.Password == password);
+    var user = p1?.Users?.FirstOrDefault(x => x.Email == email);
     if (user == null)
     {
         Console.WriteLine("Nie znaleziono uzytkownika");
     }
     else
     {
+        if (!CorrectPassword(password, user.PasswordHash, user.PasswordSalt))
+        {
+            Console.WriteLine("Niepopoprawe haslo");
+            return;
+        }
         Console.WriteLine("Zalogowany");
         Console.WriteLine("Chcesz dodac posta?");
         string ?input = Console.ReadLine();
@@ -86,7 +104,7 @@ else if (Input?.ToLower() == "sign in")
                 Console.WriteLine($"{i + 1}. {posty[i]} liczba likow: {NumberOfLikes} ");
                 
             }
-            Console.WriteLine("Checesz dodac like ?");
+            Console.WriteLine("Chcesz dodac like ?");
             string ?inputlike = Console.ReadLine();
             if (inputlike == "yes")
             {
@@ -104,3 +122,32 @@ else if (Input?.ToLower() == "sign in")
 
 //jak uzytkownik sie zaloguje to pobierz od niego dane do posta i utworz post i dodaj do bazy
 //podczas tworzenia konta sprawdzic czy uzytkownik o danym emailu juz nie istnieje w bazie
+
+
+//sklep internetowy
+//mozliwosc tworzenia uzytkownika
+//mozliwosc zalogowania sie
+//mozliwosc kupienia czegos
+
+//powinno byc tez konto admina ktory moze dodawac do sklepu przedmioty
+
+//User - informacje o uzytkowniku, dane logowania, hashe itp email
+//Item - informacja o produkcie np nazwa cena
+//Order - trzyma informacje kto zamawia (user) i kiedy
+//OrderItem - trzyma informacje jaki przedmiot zostal zamowiony do jakiego zamowienia
+
+//Users:
+//1 Ada 1234
+//2 Ala 5678
+
+//Item:
+//5 Ihpone 13 5500
+//6 Samsung S10 900
+
+//Oder
+//10 1 13/12/2021 (Ada sklada zamowienie 13 grudnia)
+
+//OderItem
+//[ID] [numer zamowienia] [numer przedmiotu]
+//15 10 5
+//16 10 6
