@@ -7,23 +7,23 @@ using System.Text;
 
 void CreatePassword(string password, out byte[] passwordHash, out byte[] passwordSalt)
 {
-    HMACSHA512 hmac = new HMACSHA512();
-    passwordSalt = hmac.Key;
-    passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+HMACSHA512 hmac = new HMACSHA512();
+passwordSalt = hmac.Key;
+passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
 }
 
 bool CorrectPassword(string password, byte[] passwordHash, byte[] passwordSalt)
 {
-    HMACSHA512 hmac = new HMACSHA512(passwordSalt);
-    byte[] passwordHash2 = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
-    for(int i = 0; i < passwordHash.Length; i++)
+HMACSHA512 hmac = new HMACSHA512(passwordSalt);
+byte[] passwordHash2 = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+for(int i = 0; i < passwordHash.Length; i++)
+{
+    if(passwordHash[i] != passwordHash2[i])
     {
-        if(passwordHash[i] != passwordHash2[i])
-        {
-            return false;
-        }
+        return false;
     }
-    return true;
+}
+return true;
 }
 
 PostContext p1 = new PostContext();
