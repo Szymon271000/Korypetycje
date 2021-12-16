@@ -14,7 +14,7 @@ namespace OnlineShop
 
         public override string ToString()
         {
-            return $"Podsumowanie: OrderItem {Id + 1} {order.Id} {item.Id}";
+            return $"Podsumowanie: OrderItem {order.Id} {item.Id}";
         }
     }
 }

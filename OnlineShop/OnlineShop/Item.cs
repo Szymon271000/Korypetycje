@@ -15,7 +15,7 @@ namespace OnlineShop
 
         public override string ToString()
         {
-            return $"Produkt {Nazwa} z kategorii {Kategoria} kozstuje {Cena}";
+            return $"Produkt {Id} {Nazwa} z kategorii {Kategoria} kozstuje {Cena}";
         }
     }
 }

@@ -71,7 +71,7 @@ else if (input.ToLower() == "sign in")
     Console.WriteLine("Podaj haslo: ");
     string password = Console.ReadLine();
     var user = shopcontext1.Users.FirstOrDefault(x => x.Email == email);
-    if (user == null)
+    if (user != null)
     {
         Console.WriteLine("Taki uzytkownik nie istnieje");
     }
@@ -83,48 +83,67 @@ else if (input.ToLower() == "sign in")
         }
         else
         {
-            Console.WriteLine("Zalogowany");
-            Console.WriteLine("Chcesz cos kupic: ");
-            string inputuser = Console.ReadLine();
-            if (inputuser.ToLower() == "tak")
+            Console.WriteLine("Jestes adminem ?");
+            string inputadmin = Console.ReadLine();
+            if (inputadmin.ToLower() == "tak")
             {
-                string[] productsnames = new string[] { "Iphone", "Samsung", "Huawei", "Xiaomi" };
-                string kategoria = "Mobiles";
-                float[] prices = new float[] { 799.99f, 899.99f, 1099.99f};
-                Random rnd = new Random();
-                List<Item> items = new List<Item>();
-                
-                for (int i = 0; i < 5; i++)
-                {
-                    Item u1 = new Item();
-                    int losowo = rnd.Next(0, productsnames.Length);
-                    u1.Nazwa = productsnames[losowo];
-                    u1.Kategoria = kategoria;
-                    int losowacena = rnd.Next(0, prices.Length);
-                    u1.Cena = prices[losowacena];
-                    items.Add(u1);
-                    shopcontext1.Add(u1);
-                }
-                shopcontext1.SaveChanges();
-                for (int i = 0; i < items.Count; i++)
-                {
-                    Console.WriteLine(items[i]);
-                }
-
-                Console.WriteLine("Co chcesz kupic? Podaj nazwe produktu :");
+                Console.WriteLine("Podaj nazwe produktu: ");
                 string nazwa = Console.ReadLine();
-                Order o1 = new Order();
-                o1.buyer = user;
-                Console.WriteLine(o1);
-                OrderItem orderItem1 = new OrderItem();
-                orderItem1.order = o1;
-                orderItem1.item = shopcontext1.Items.FirstOrDefault(x => x.Nazwa == nazwa);
-                Console.WriteLine(orderItem1);
-                shopcontext1.Add(o1);
-                shopcontext1.Add(orderItem1);
+                string kategoria1 = Console.ReadLine();
+                float cena = float.Parse(Console.ReadLine());
+                Item i = new Item();
+                i.Nazwa = nazwa;
+                i.Kategoria = kategoria1;
+                i.Cena = cena;
+                shopcontext1.Add(i);
                 shopcontext1.SaveChanges();
-                 
-                
+            }
+            else
+            {
+                Console.WriteLine("Zalogowany");
+                Console.WriteLine("Chcesz cos kupic: ");
+                string inputuser = Console.ReadLine();
+                if (inputuser.ToLower() == "tak")
+                {
+                    string[] productsnames = new string[] { "Iphone", "Samsung", "Huawei", "Xiaomi" };
+                    string kategoria = "Mobiles";
+                    float[] prices = new float[] { 799.99f, 899.99f, 1099.99f };
+                    Random rnd = new Random();
+                    List<Item> items = shopcontext1.Items.ToList();
+
+                    /*for (int i = 0; i < 5; i++)
+                    {
+                        Item u1 = new Item();
+                        int losowo = rnd.Next(0, productsnames.Length);
+                        u1.Nazwa = productsnames[losowo];
+                        u1.Kategoria = kategoria;
+                        int losowacena = rnd.Next(0, prices.Length);
+                        u1.Cena = prices[losowacena];
+                        items.Add(u1);
+                        shopcontext1.Add(u1);
+                    }*/
+                    //shopcontext1.SaveChanges();
+                    for (int i = 0; i < items.Count; i++)
+                    {
+                        Console.WriteLine(items[i]);
+                    }
+
+                    Console.WriteLine("Co chcesz kupic? Podaj id produktu :");
+                    int id = int.Parse(Console.ReadLine());
+                    Order o1 = new Order();
+                    o1.buyer = user;
+                    Console.WriteLine(o1);
+                    OrderItem orderItem1 = new OrderItem();
+                    orderItem1.order = o1;
+
+                    //orderitem z wieloma produktami
+                    orderItem1.item = shopcontext1.Items.FirstOrDefault(x => x.Id == id);
+                    Console.WriteLine(orderItem1);
+                    shopcontext1.Add(o1);
+                    shopcontext1.Add(orderItem1);
+                    shopcontext1.SaveChanges();
+
+                }
             }
         }
     }
