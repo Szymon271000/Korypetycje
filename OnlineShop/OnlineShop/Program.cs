@@ -71,7 +71,7 @@ else if (input.ToLower() == "sign in")
     Console.WriteLine("Podaj haslo: ");
     string password = Console.ReadLine();
     var user = shopcontext1.Users.FirstOrDefault(x => x.Email == email);
-    if (user != null)
+    if (user == null)
     {
         Console.WriteLine("Taki uzytkownik nie istnieje");
     }
@@ -83,10 +83,12 @@ else if (input.ToLower() == "sign in")
         }
         else
         {
-            Console.WriteLine("Jestes adminem ?");
+            Console.WriteLine("Jestes adminem? Dodaj haslo:");
+            string passwordadmin = "jestemadminem";
             string inputadmin = Console.ReadLine();
-            if (inputadmin.ToLower() == "tak")
+            if (inputadmin.ToLower() == passwordadmin)
             {
+                user.IsAdmin = true;
                 Console.WriteLine("Podaj nazwe produktu: ");
                 string nazwa = Console.ReadLine();
                 string kategoria1 = Console.ReadLine();
@@ -100,7 +102,8 @@ else if (input.ToLower() == "sign in")
             }
             else
             {
-                Console.WriteLine("Zalogowany");
+                Console.WriteLine("Nie jestes adminem");
+                Console.WriteLine("Zalogowany jako klient");
                 Console.WriteLine("Chcesz cos kupic: ");
                 string inputuser = Console.ReadLine();
                 if (inputuser.ToLower() == "tak")
@@ -128,20 +131,30 @@ else if (input.ToLower() == "sign in")
                         Console.WriteLine(items[i]);
                     }
 
-                    Console.WriteLine("Co chcesz kupic? Podaj id produktu :");
-                    int id = int.Parse(Console.ReadLine());
-                    Order o1 = new Order();
-                    o1.buyer = user;
-                    Console.WriteLine(o1);
-                    OrderItem orderItem1 = new OrderItem();
-                    orderItem1.order = o1;
+                    
+                    for (int i = 0; i < 3; i++)
+                    {
+                        Console.WriteLine("Co chcesz kupic? Podaj id produktu :");
+                        OrderItem orderItem1 = new OrderItem();
+                        int id = int.Parse(Console.ReadLine());
+                        Order o1 = new Order();
+                        o1.buyer = user;
+                        Console.WriteLine(o1);
+
+                        orderItem1.order = o1;
+                        orderItem1.item = shopcontext1.Items.FirstOrDefault(x => x.Id == id);
+                        Console.WriteLine(orderItem1);
+                        shopcontext1.Add(o1);
+                        shopcontext1.Add(orderItem1);
+                        shopcontext1.SaveChanges();
+                    }
+                    
+                    
+                    
+                    
 
                     //orderitem z wieloma produktami
-                    orderItem1.item = shopcontext1.Items.FirstOrDefault(x => x.Id == id);
-                    Console.WriteLine(orderItem1);
-                    shopcontext1.Add(o1);
-                    shopcontext1.Add(orderItem1);
-                    shopcontext1.SaveChanges();
+                    
 
                 }
             }

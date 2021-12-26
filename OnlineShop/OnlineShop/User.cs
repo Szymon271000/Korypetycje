@@ -13,7 +13,8 @@ namespace OnlineShop
         public string Email { get; set; }
         public byte[] PasswordHash { get; set; }
         public byte[] Passwordsalt { get; set; }
-       // public bool IsAdmin { get; set; } = false;
+       
+        public bool IsAdmin { get; set; } = false;
 
     }
 }
