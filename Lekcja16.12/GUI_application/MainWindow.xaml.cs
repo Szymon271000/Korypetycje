@@ -140,6 +140,30 @@ namespace GUI_application
                     operacja = "";
                 }
             }
+            if (operacja == "sqrt")
+            {
+                double a = double.Parse(pamiec);
+                double wynik = Math.Sqrt(a);
+                resultTb.Text = wynik.ToString();
+                pamiec = "0";
+                operacja = "";
+            }
+            if (operacja =="x^2")
+            {
+                int a = int.Parse(pamiec);
+                double wynik = Math.Pow(a, 2);
+                resultTb.Text = wynik.ToString();
+                pamiec = "0";
+                operacja = "";
+            }
+            if (operacja == "x^3")
+            {
+                int a = int.Parse(pamiec);
+                double wynik = Math.Pow(a, 3);
+                resultTb.Text = wynik.ToString();
+                pamiec = "0";
+                operacja = "";
+            }
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
@@ -232,6 +256,27 @@ namespace GUI_application
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
             operacja = "/";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
+        }
+
+        private void Button_Click_17(object sender, RoutedEventArgs e)
+        {
+            operacja = "sqrt";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
+        }
+
+        private void Button_Click_18(object sender, RoutedEventArgs e)
+        {
+            operacja = "x^2";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
+        }
+
+        private void Button_Click_19(object sender, RoutedEventArgs e)
+        {
+            operacja = "x^3";
             pamiec = resultTb.Text;
             resultTb.Text = "0";
         }
