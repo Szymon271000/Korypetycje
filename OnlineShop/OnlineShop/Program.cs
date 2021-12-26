@@ -131,30 +131,33 @@ else if (input.ToLower() == "sign in")
                         Console.WriteLine(items[i]);
                     }
 
-                    
+                    OrderItem orderItem1 = new OrderItem();
+                    Order o1 = new Order();
+                    o1.buyer = user;
+
                     for (int i = 0; i < 3; i++)
                     {
                         Console.WriteLine("Co chcesz kupic? Podaj id produktu :");
-                        OrderItem orderItem1 = new OrderItem();
+                       
                         int id = int.Parse(Console.ReadLine());
-                        Order o1 = new Order();
-                        o1.buyer = user;
-                        Console.WriteLine(o1);
+                        
+                        
+                        //Console.WriteLine(o1);
 
                         orderItem1.order = o1;
                         orderItem1.item = shopcontext1.Items.FirstOrDefault(x => x.Id == id);
-                        Console.WriteLine(orderItem1);
-                        shopcontext1.Add(o1);
-                        shopcontext1.Add(orderItem1);
-                        shopcontext1.SaveChanges();
                     }
-                    
-                    
-                    
-                    
+
+                    Console.WriteLine(orderItem1);
+                    shopcontext1.Add(o1);
+                    shopcontext1.Add(orderItem1);
+                    shopcontext1.SaveChanges();
+
+
+
 
                     //orderitem z wieloma produktami
-                    
+
 
                 }
             }
