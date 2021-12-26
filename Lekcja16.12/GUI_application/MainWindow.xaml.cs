@@ -102,6 +102,138 @@ namespace GUI_application
                 pamiec = "0";
                 operacja = "";
             }
+            if (operacja == "-")
+            {
+                int a = int.Parse(pamiec);
+                int b = int.Parse(resultTb.Text);
+                int wynik = a - b;
+                resultTb.Text = wynik.ToString();
+                pamiec = "0";
+                operacja = "";
+            }
+            if (operacja == "*")
+            {
+                int a = int.Parse(pamiec);
+                int b = int.Parse(resultTb.Text);
+                int wynik = a * b;
+                resultTb.Text = wynik.ToString();
+                pamiec = "0";
+                operacja = "";
+            }
+            if (operacja == "/")
+            {
+                int a = int.Parse(pamiec);
+                int b = int.Parse(resultTb.Text);
+                if (a == 0 & b == 0)
+                {
+                    MessageBox.Show($"Dzielenie {a} / {b} jest niemozliwe");
+                }
+                else if (b == 0)
+                {
+                    MessageBox.Show($"Dzielenie {a} / {b} jest niemozliwe");
+                }
+                else
+                {
+                    int wynik = a / b;
+                    resultTb.Text = wynik.ToString();
+                    pamiec = "0";
+                    operacja = "";
+                }
+            }
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "4";
+            }
+            else
+            {
+                resultTb.Text += "4";
+            }
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "5";
+            }
+            else
+            {
+                resultTb.Text += "5";
+            }
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "6";
+            }
+            else
+            {
+                resultTb.Text += "6";
+            }
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "7";
+            }
+            else
+            {
+                resultTb.Text += "7";
+            }
+
+        }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "8";
+            }
+            else
+            {
+                resultTb.Text += "8";
+            }
+        }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+            if (resultTb.Text == "0")
+            {
+                resultTb.Text = "9";
+            }
+            else
+            {
+                resultTb.Text += "9";
+            }
+        }
+
+        private void Button_Click_14(object sender, RoutedEventArgs e)
+        {
+            operacja = "-";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
+        }
+
+        private void Button_Click_15(object sender, RoutedEventArgs e)
+        {
+            operacja = "*";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
+        }
+
+        private void Button_Click_16(object sender, RoutedEventArgs e)
+        {
+            operacja = "/";
+            pamiec = resultTb.Text;
+            resultTb.Text = "0";
         }
     }
 }
