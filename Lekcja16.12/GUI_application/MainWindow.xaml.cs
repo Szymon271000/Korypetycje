@@ -142,8 +142,8 @@ namespace GUI_application
             }
             if (operacja == "sqrt")
             {
-                double a = double.Parse(pamiec);
-                double wynik = Math.Sqrt(a);
+                int a = int.Parse(pamiec);
+                int wynik = (int)Math.Sqrt(a);
                 resultTb.Text = wynik.ToString();
                 pamiec = "0";
                 operacja = "";
