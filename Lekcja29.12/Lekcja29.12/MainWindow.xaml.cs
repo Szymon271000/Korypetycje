@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace Lekcja29._12
 {
@@ -24,7 +14,7 @@ namespace Lekcja29._12
         public MainWindow()
         {
             InitializeComponent();
-            //dataGrid.ItemsSource = users;
+            dataGrid.ItemsSource = new ObservableCollection<User>(context.Users);
         }
 
         private void ZajerestrujBT_Click(object sender, RoutedEventArgs e)
@@ -87,15 +77,12 @@ namespace Lekcja29._12
             }
             if (blad == false)
             {
-                bool zalogowany = false;
                 var user = context.Users.Any(x => x.Nazwisko == Nazwisko2TB.Text && x.Password == Haslo3TB.Password);
                 if (user)
                 {
                     MessageBox.Show("Zalogowany");
-                    zalogowany = true;
                 }
-                
-                if (zalogowany == false)
+                else
                 {
                     MessageBox.Show("Nie udalo sie zalogowac");
                 }
