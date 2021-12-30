@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lekcja30._12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lekcja30._12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Square1" Content="" HorizontalAlignment="Left" Margin="265,128,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square2" Content="" HorizontalAlignment="Left" Margin="310,128,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square3" Content="" HorizontalAlignment="Left" Margin="354,128,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square4" Content="" HorizontalAlignment="Left" Margin="265,174,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square5" Content="" HorizontalAlignment="Left" Margin="310,174,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square6" Content="" HorizontalAlignment="Left" Margin="354,174,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square7" Content="" HorizontalAlignment="Left" Margin="265,217,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square8" Content="" HorizontalAlignment="Left" Margin="310,217,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+        <Button x:Name="Square9" Content="" HorizontalAlignment="Left" Margin="354,217,0,0" VerticalAlignment="Top" Height="29" Width="29" Click="Square1_Click" />
+
+    </Grid>
+</Window>
