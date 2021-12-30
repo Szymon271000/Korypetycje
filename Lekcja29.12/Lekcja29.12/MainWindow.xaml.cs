@@ -88,14 +88,13 @@ namespace Lekcja29._12
             if (blad == false)
             {
                 bool zalogowany = false;
-                foreach (var user in users)
+                var user = context.Users.Any(x => x.Nazwisko == Nazwisko2TB.Text && x.Password == Haslo3TB.Password);
+                if (user)
                 {
-                    if (user.Nazwisko == Nazwisko2TB.Text && user.Password == Haslo3TB.Password)
-                    {
-                        MessageBox.Show("Zalogowany");
-                        zalogowany = true;
-                    }
+                    MessageBox.Show("Zalogowany");
+                    zalogowany = true;
                 }
+                
                 if (zalogowany == false)
                 {
                     MessageBox.Show("Nie udalo sie zalogowac");
