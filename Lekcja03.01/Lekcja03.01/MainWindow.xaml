@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="NazwaBox" HorizontalAlignment="Left" Height="33" Margin="36,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" TextChanged="NazwaBox_TextChanged"/>
+        <TextBox x:Name="RejestracjaBox" HorizontalAlignment="Left" Height="33" Margin="36,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="NumerMiejscaBox" HorizontalAlignment="Left" Height="34" Margin="36,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <Button Content="Dodaj Samochod" HorizontalAlignment="Left" Height="39" Margin="36,247,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click"/>
+        <Label Content="Nazwa" HorizontalAlignment="Left" Height="26" Margin="36,82,0,0" VerticalAlignment="Top" Width="207"/>
+        <Label Content="Rejestracja" HorizontalAlignment="Left" Height="24" Margin="36,146,0,0" VerticalAlignment="Top" Width="128"/>
+        <Label Content="NumerMiejsca" HorizontalAlignment="Left" Height="32" Margin="36,209,0,0" VerticalAlignment="Top" Width="128"/>
+        <ListBox x:Name="listBox" Margin="276,44,276,205" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="UsunButton" Content="Usuń samochod" HorizontalAlignment="Left" Height="39" Margin="177,247,0,0" VerticalAlignment="Top" Width="113" Click="UsunButton_Click"/>
+        <Button x:Name="PobierzButton" Content="Pobierz samochod" HorizontalAlignment="Left" Height="39" Margin="340,247,0,0" VerticalAlignment="Top" Width="131" Click="PobierzButton_Click"/>
 
     </Grid>
 </Window>

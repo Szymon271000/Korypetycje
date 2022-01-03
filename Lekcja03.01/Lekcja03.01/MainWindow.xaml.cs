@@ -20,9 +20,56 @@ namespace Lekcja03._01
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Car> cars = new List<Car>();
         public MainWindow()
         {
             InitializeComponent();
+            listBox.ItemsSource = cars;
+        }
+
+        private void NazwaBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (NazwaBox.Text != string.Empty && RejestracjaBox.Text != string.Empty && NumerMiejscaBox.Text != string.Empty)
+            {
+                Car c = new Car(NazwaBox.Text, RejestracjaBox.Text, int.Parse(NumerMiejscaBox.Text)); // content nie jest stringiem, text jest
+                cars.Add(c);
+                listBox.Items.Refresh();
+            }
+        }
+
+        private void UsunButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(listBox.SelectedItem is Car car)
+            {
+                cars.Remove(car);
+                listBox.Items.Refresh();
+            }
+        }
+
+        private void PobierzButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (listBox.SelectedItem is Car car)
+            {
+                NazwaBox.Text = car.Nazwa;
+                RejestracjaBox.Text = car.Rejestracja;
+                NumerMiejscaBox.Text = car.NumerMiejsca.ToString();
+            }
+        }
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listBox.SelectedItem is Car car)
+            {
+                NazwaBox.Text = car.Nazwa;
+                RejestracjaBox.Text = car.Rejestracja;
+                NumerMiejscaBox.Text = car.NumerMiejsca.ToString();
+            }
+
         }
     }
 }
