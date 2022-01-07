@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lekcja07._01.NewGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lekcja07._01"
+        mc:Ignorable="d"
+        Title="NewGameWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="10,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="SalePrice" HorizontalAlignment="Left" Height="27" Margin="173,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="Title" HorizontalAlignment="Left" Height="27" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="NormalPrice" HorizontalAlignment="Left" Height="27" Margin="322,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="SteamRatingText" HorizontalAlignment="Left" Height="27" Margin="483,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <Button x:Name="DodajButton" Content="Dodaj gre" HorizontalAlignment="Left" Height="37" Margin="568,102,0,0" VerticalAlignment="Top" Width="149" Click="DodajButton_Click"/>
+
+    </Grid>
+</Window>
