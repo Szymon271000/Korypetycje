@@ -7,13 +7,8 @@
         mc:Ignorable="d"
         Title="Ocane" Height="450" Width="800">
     <Grid>
-        <Label x:Name="Dodaj" Content="Dodaj Ocene" HorizontalAlignment="Left" Height="34" Margin="43,52,0,0" VerticalAlignment="Top" Width="132"/>
-        <Label x:Name="Dodaj1" Content="Dodaj Ocene" HorizontalAlignment="Left" Height="34" Margin="43,117,0,0" VerticalAlignment="Top" Width="132"/>
-        <Label x:Name="Dodaj2" Content="Dodaj Ocene" HorizontalAlignment="Left" Height="34" Margin="43,0,0,0" VerticalAlignment="Center" Width="132"/>
-        <TextBox x:Name="Ocena1" HorizontalAlignment="Left" Height="34" Margin="225,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="Ocena2" HorizontalAlignment="Left" Height="34" Margin="225,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="Ocena3" HorizontalAlignment="Left" Height="34" Margin="225,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <Button x:Name="DodajOceny" Content="Dodaj oceny" HorizontalAlignment="Left" Height="54" Margin="272,265,0,0" VerticalAlignment="Top" Width="80" Click="DodajOceny_Click"/>
+        <TextBox x:Name="Ocena1" HorizontalAlignment="Left" Height="34" Margin="38,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="DodajOcene" Content="Dodaj oceny" HorizontalAlignment="Left" Height="34" Margin="211,35,0,0" VerticalAlignment="Top" Width="80" Click="DodajOceny_Click"/>
 
     </Grid>
 </Window>

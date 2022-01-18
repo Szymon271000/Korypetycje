@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -19,10 +20,7 @@ namespace PO_Lab8
     /// </summary>
     public partial class Ocane : Window
     {
-        Ocena o1 = new Ocena();
-        Ocena o2 = new Ocena();
-        Ocena o3 = new Ocena();
-        public List<Ocena> notes = new List<Ocena>();
+        public Ocena Ocena { get; set; } = new Ocena();
 
         public Ocane()
         {
@@ -31,13 +29,15 @@ namespace PO_Lab8
 
         private void DodajOceny_Click(object sender, RoutedEventArgs e)
         {
-            o1.Note = int.Parse(Ocena1.Text);
-            o2.Note = int.Parse(Ocena2.Text);
-            o3.Note = int.Parse(Ocena3.Text);
-            notes.Add(o1);
-            notes.Add(o2);
-            notes.Add(o3);
-            this.DialogResult = true;
+            if (Regex.IsMatch(Ocena1.Text,@"^[2-5]{1}$"))
+            {
+                Ocena.Note = int.Parse(Ocena1.Text);
+                this.DialogResult = true;
+            }
+            else
+            {
+                MessageBox.Show("Niepoprawna ocena");
+            }
         }
     }
 }

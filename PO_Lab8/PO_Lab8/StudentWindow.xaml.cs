@@ -36,14 +36,14 @@ namespace PO_Lab8
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
-/*            if (!Regex.IsMatch(ImieBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
-                !Regex.IsMatch(NazwiskoBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") || spytac
-                !Regex.IsMatch(WydzialBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
-                !Regex.IsMatch(NrIndeksuBox.Text, @"[0-9] {4,10}"))
-            {
-                MessageBox.Show("Nie poprawne dane");
-                return;
-            }*/
+          //if (!Regex.IsMatch(ImieBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
+          //      !Regex.IsMatch(NazwiskoBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") || 
+          //      !Regex.IsMatch(WydzialBox.Text, @"^\p{Lu}\p{Ll}{1,12}$") ||
+          //      !Regex.IsMatch(NrIndeksuBox.Text, @"[0-9] {4,10}"))
+          //  {
+          //      MessageBox.Show("Nie poprawne dane");
+          //      return;
+          //  }
             student.FirstName = ImieBox.Text;
             student.SurName = NazwiskoBox.Text;
             student.StudentNo = int.Parse(NrIndeksuBox.Text);

@@ -36,7 +36,7 @@ namespace PO_Lab8
             dg.Columns.Add(new DataGridTextColumn() { Header = "Nazwisko", Binding = new Binding("SurName") });
             dg.Columns.Add(new DataGridTextColumn() { Header = "NrIndeksu", Binding = new Binding("StudentNo") });
             dg.Columns.Add(new DataGridTextColumn() { Header = "Wydzial", Binding = new Binding("Faculty") });
-            dg.Columns.Add(new DataGridTextColumn() { Header = "Oceny", Binding = new Binding("Ocena") });
+            dg.Columns.Add(new DataGridTextColumn() { Header = "Oceny", Binding = new Binding("Oceny") });
             dg.AutoGenerateColumns = false;
         }
 
@@ -82,7 +82,7 @@ namespace PO_Lab8
             var ocena = new Ocane();
             if (dg.SelectedItem is Student student && ocena.ShowDialog() == true)
             {
-                student.Oceny = ocena.notes;
+                student.ListaOcen.Add(ocena.Ocena);
                 dg.Items.Refresh();
             }
         }
