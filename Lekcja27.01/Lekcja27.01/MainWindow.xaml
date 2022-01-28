@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <controls:RateControl Width="300" Height="50" SelectedColor="Green" UnselectedColor="Aqua" SelectedValue="2" ValueChanged="OnRate"/>
+        <controls:RateControl x:Name="Rates" Width="300" Height="50" SelectedColor="Green" UnselectedColor="Aqua" SelectedValue="2" ValueChanged="OnRate"/>
     </Grid>
 </Window>

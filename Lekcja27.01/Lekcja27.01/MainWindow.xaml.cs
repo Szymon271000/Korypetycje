@@ -20,6 +20,8 @@ namespace Lekcja27._01
     /// </summary>
     public partial class MainWindow : Window
     {
+        DataContext dataContext = new DataContext();
+        Note note = new Note();
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +30,9 @@ namespace Lekcja27._01
         private void OnRate(int value)
         {
             MessageBox.Show("Dziękujemy za ocenę: " + value);
+            note.Wartosc = Rates.SelectedValue;
+            dataContext.Add(note);
+            dataContext.SaveChanges();
         }
     }
 }
