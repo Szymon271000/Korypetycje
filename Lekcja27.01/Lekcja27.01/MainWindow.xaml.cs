@@ -21,18 +21,22 @@ namespace Lekcja27._01
     public partial class MainWindow : Window
     {
         DataContext dataContext = new DataContext();
-        Note note = new Note();
         public MainWindow()
         {
             InitializeComponent();
+            Rates.OnRateAdded += Rates_OnRateAdded2;
         }
 
-        private void OnRate(int value)
+        private void Rates_OnRateAdded2(object sender, int e)
         {
-            MessageBox.Show("Dziękujemy za ocenę: " + value);
-            note.Wartosc = Rates.SelectedValue;
-            dataContext.Add(note);
+            dataContext.Add(new Note { Wartosc = e });
             dataContext.SaveChanges();
+            Console.WriteLine("Saved to db");
+        }
+
+        private void Rates_OnRateAdded(object sender, int e)
+        {
+            MessageBox.Show("Dziękujemy za ocenę: " + e);
         }
     }
 }

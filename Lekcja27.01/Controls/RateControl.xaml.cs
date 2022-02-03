@@ -26,7 +26,7 @@ namespace Controls
         public SolidColorBrush SelectedColor { get; set; } = new SolidColorBrush(Colors.Yellow);
         public SolidColorBrush UnselectedColor { get; set; } = new SolidColorBrush(Colors.Gray);
 
-        public Action<int> ValueChanged { get; set; }
+        public event EventHandler<int> OnRateAdded;
 
         public int SelectedValue
         {
@@ -37,10 +37,7 @@ namespace Controls
                 {
                     selectedValue = value;
                     ColorCircles(selectedValue);
-                    if(ValueChanged != null)
-                    {
-                        ValueChanged(selectedValue);
-                    }
+                    OnRateAdded?.Invoke(this, selectedValue);
                 }
             }
         }
