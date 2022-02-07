@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,14 +25,20 @@ namespace Lekcja27._01
         public MainWindow()
         {
             InitializeComponent();
+            Rates.OnRateAdded += Rates_OnRateAdded;
             Rates.OnRateAdded += Rates_OnRateAdded2;
         }
 
         private void Rates_OnRateAdded2(object sender, int e)
         {
-            dataContext.Add(new Note { Wartosc = e });
-            dataContext.SaveChanges();
-            Console.WriteLine("Saved to db");
+            Thread t = new Thread(() =>
+            {
+                dataContext.Add(new Note { Wartosc = e });
+                dataContext.SaveChanges();
+                Thread.Sleep(5000);
+                Console.WriteLine("Saved to db");
+            });
+            t.Start();
         }
 
         private void Rates_OnRateAdded(object sender, int e)
