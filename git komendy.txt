@@ -1,0 +1,28 @@
+git clone [link]
+
+//nowe pliki w repo trzeba dodać tą komendą
+git add [nazwa pliku lub kropka]
+
+//zapis zmian
+git commit -m "nazwa commita"
+
+//wyslanie zmian na serwer
+git push
+
+sprawdzenie czy sa jakies commity do pobrania
+git fetch
+
+pobieranie commitow
+git pull
+
+//zmiana brancha 
+git chechout [nazwa branach]
+
+// stworznie repo na kompie
+git init
+
+// dodanie odniesienia do repo które znajduje się na serwerze
+git remote add [origin] [https://github.com/Szymon271000/TestRepo2.git]
+
+//wypchniecie zmian
+ git push --set-upstream origin master
