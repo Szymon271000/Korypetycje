@@ -1,0 +1,14 @@
+// 1 model do logowania (class of C#)
+// 2 akcja z logowania (method in Controller)
+// 3 view do logowania (the name must be the same of the action and must import @model (name)) - html
+// 4 akcja po kliknieciu po uzupelnieniu formularza [HttpPost]
+
+//research: Server/View/Controller
+
+Database:
+1. folder with class and database
+2. create class
+3. create Dbcontext
+4. in appseetings.json add "ConnectionStrings"
+5. in Startup.cs add two lines in ConfigureServices
+6. in Controller add DbContext
