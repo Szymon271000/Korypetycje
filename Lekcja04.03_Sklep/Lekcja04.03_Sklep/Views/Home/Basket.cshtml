@@ -1,0 +1,23 @@
+﻿@model List<OrderItem>
+
+<p>Ilość towarów w zamówieniu: @ViewBag.OrderCount</p>
+
+<table class="table table-stripped">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
+    @foreach (var orderItem in Model)
+    {
+        <tr>
+            <td>@orderItem.Product.Id</td>
+            <td>@orderItem.Product.Name</td>
+            <td>@orderItem.Product.Price</td>
+            <td>
+                <a asp-action="DeleteOrderItem" asp-route-id="@orderItem.Id" class="btn btn-danger">Usuń</a>
+            </td>
+        </tr>
+    }
+</table>

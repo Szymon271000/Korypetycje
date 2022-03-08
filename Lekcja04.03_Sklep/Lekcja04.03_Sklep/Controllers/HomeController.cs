@@ -1,12 +1,11 @@
 ﻿using Lekcja04._03_Sklep.Data;
 using Lekcja04._03_Sklep.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Lekcja04._03_Sklep.Controllers
 {
@@ -14,11 +13,20 @@ namespace Lekcja04._03_Sklep.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IProductRepository productRepository;
+        private readonly IOrderReposiotry orderReposiotry;
 
-        public HomeController(ILogger<HomeController> logger, IProductRepository productRepository)
+        public HomeController(ILogger<HomeController> logger, IProductRepository productRepository, IOrderReposiotry orderReposiotry)
         {
             _logger = logger;
             this.productRepository = productRepository;
+            this.orderReposiotry = orderReposiotry;
+        }
+
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            base.OnActionExecuting(context);
+            var orderList = orderReposiotry.GetItemsFromActiveOrder();
+            ViewBag.OrderCount = orderList.Count;
         }
 
         public IActionResult Index()
@@ -37,7 +45,7 @@ namespace Lekcja04._03_Sklep.Controllers
                     Price = model.Price
                 };
                 productRepository.AddProduct(product);
-                return View();
+                return RedirectToAction("Products");
             }
             return View(model);
         }
@@ -54,6 +62,22 @@ namespace Lekcja04._03_Sklep.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        public IActionResult AddProduct(int id)
+        {
+            orderReposiotry.AddProductToOrder(id);
+            return RedirectToAction("Products");
+        }
 
+        public IActionResult Basket()
+        {
+            var orderList = orderReposiotry.GetItemsFromActiveOrder();
+            return View(orderList);
+        }
+
+        public IActionResult DeleteOrderItem(int id)
+        {
+            orderReposiotry.RemoveOrderItem(id);
+            return RedirectToAction("Basket");
+        }
     }
 }

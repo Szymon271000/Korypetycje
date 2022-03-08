@@ -25,5 +25,10 @@ namespace Lekcja04._03_Sklep.Data
             context.Add(p);
             context.SaveChanges();
         }
+
+        public Product GetProduct(int productId)
+        {
+            return context.Products.FirstOrDefault(x => x.Id == productId);
+        }
     }
 }

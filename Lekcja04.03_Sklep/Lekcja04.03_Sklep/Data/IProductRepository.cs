@@ -7,5 +7,6 @@ namespace Lekcja04._03_Sklep.Data
     {
         void AddProduct(Product p);
         List<Product> GetAllProducts();
+        Product GetProduct(int productId);
     }
 }

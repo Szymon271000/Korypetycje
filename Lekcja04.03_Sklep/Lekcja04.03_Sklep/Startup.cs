@@ -28,7 +28,9 @@ namespace Lekcja04._03_Sklep
             services.AddControllersWithViews();
             var connectionString = Configuration.GetConnectionString("Default");
             services.AddDbContext<DataContext>(options => options.UseSqlServer(connectionString));
+
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IOrderReposiotry, OrderReposiotry>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
