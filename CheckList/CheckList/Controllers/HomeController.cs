@@ -34,7 +34,8 @@ namespace CheckList.Controllers
                 var goal = new Goal
                 {
                     Description = model.Description,
-                    Duration = model.Duration
+                    Duration = model.Duration,
+                    Category = model.Category
                 };
                 taskRepo.AddTask(goal);
                 return RedirectToAction("Tasks");
