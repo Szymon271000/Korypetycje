@@ -13,5 +13,7 @@ namespace CheckList.Models
         public string Description { get; set; }
         public int Duration { get; set; }
 
+        public bool Done { get; set; } = false;
+
     }
 }

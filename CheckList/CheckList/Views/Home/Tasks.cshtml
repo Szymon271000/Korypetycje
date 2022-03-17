@@ -5,6 +5,7 @@
         <th>Description</th>
         <th>Duration</th>
         <th>Category</th>
+        <th>Done/Undone</th>
         <th></th>
     </tr>
     @foreach (var g in Model)
@@ -14,8 +15,9 @@
     <td>@g.Description</td>
     <td>@g.Duration</td>
     <td>@g.Category</td>
+    <td>@g.Done</td>
     <td>
-        <a class="btn btn-success" asp-action="RemoveTask" asp-route-id="@g.Id">Done</a>
+        <a class="btn btn-success" asp-action="SetDone" asp-route-id="@g.Id">Done</a>
     </td>
 </tr>
     }

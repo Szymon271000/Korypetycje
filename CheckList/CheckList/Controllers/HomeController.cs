@@ -14,6 +14,7 @@ namespace CheckList.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ITaskRepository taskRepo;
+        private List<Goal> Done = new List<Goal>();
 
         public HomeController(ILogger<HomeController> logger, ITaskRepository taskRepository)
         {
@@ -53,11 +54,19 @@ namespace CheckList.Controllers
             return View();
         }
 
-        public IActionResult RemoveTask(int id)
+        
+        public IActionResult SetDone(int id)
         {
-            taskRepo.RemoveGoal(id);
-            return RedirectToAction("Tasks");
+            taskRepo.SetDone(id);
+            return RedirectToAction("TaskDone");
         }
+
+        
+        public IActionResult TaskDone()
+        {
+            return View(taskRepo.GetDone());
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

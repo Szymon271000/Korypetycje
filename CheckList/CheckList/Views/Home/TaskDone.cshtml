@@ -1,0 +1,22 @@
+@model List<Goal>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Description</th>
+        <th>Duration</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th></th>
+    </tr>
+    @foreach (var g in Model)
+    {
+        <tr>
+            <td>@g.Id</td>
+            <td>@g.Description</td>
+            <td>@g.Duration</td>
+            <td>@g.Category</td>
+            <td>@g.Done</td>
+        </tr>
+    }
+</table>
+

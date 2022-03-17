@@ -13,5 +13,10 @@ namespace CheckList.Data
 
         void RemoveGoal(int goalId);
         void AddTask(Goal goal);
+
+        List<Goal> GetDone();
+
+        void SetDone(int goalId);
+
     }
 }
