@@ -54,17 +54,29 @@ namespace CheckList.Controllers
             return View();
         }
 
-        
+
         public IActionResult SetDone(int id)
         {
             taskRepo.SetDone(id);
-            return RedirectToAction("TaskDone");
+            return RedirectToAction("Tasks");
         }
 
-        
-        public IActionResult TaskDone()
+
+        //public IActionResult TaskDone()
+        //{
+        //    return View(taskRepo.GetDone());
+        //}
+
+        public IActionResult SetUnDone(int id)
         {
-            return View(taskRepo.GetDone());
+            taskRepo.SetUnDone(id);
+            return RedirectToAction("Tasks");
+        }
+
+        public IActionResult Remove(int id)
+        {
+            taskRepo.RemoveGoal(id);
+            return RedirectToAction("Tasks");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

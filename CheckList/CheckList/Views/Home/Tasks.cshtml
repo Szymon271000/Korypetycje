@@ -10,14 +10,21 @@
     </tr>
     @foreach (var g in Model)
     {
+        var style = (g.Done == true) ? "font-weight:bold" : "";
 <tr>
-    <td>@g.Id</td>
-    <td>@g.Description</td>
-    <td>@g.Duration</td>
-    <td>@g.Category</td>
-    <td>@g.Done</td>
+    <td style="@style">@g.Id</td>
+    <td style="@style">@g.Description</td>
+    <td style="@style">@g.Duration</td>
+    <td style="@style">@g.Category</td>
+    <td style="@style">@g.Done</td>
     <td>
         <a class="btn btn-success" asp-action="SetDone" asp-route-id="@g.Id">Done</a>
+    </td>
+    <td>
+        <a class="btn btn-success" asp-action="SetUnDone" asp-route-id="@g.Id">Undo</a>
+    </td>
+    <td>
+        <a class="btn btn-success" asp-action="Remove" asp-route-id="@g.Id">Remove</a>
     </td>
 </tr>
     }

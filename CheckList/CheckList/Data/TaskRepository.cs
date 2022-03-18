@@ -26,10 +26,10 @@ namespace CheckList.Data
             return context.goals.ToList();
         }
 
-        public List<Goal> GetDone()
-        {
-            return context.goals.Where(x => x.Done).ToList();
-        }
+        //public List<Goal> GetDone()
+        //{
+        //    return context.goals.Where(x => x.Done).ToList();
+        //}
 
         public Goal GetGoal(int goalId)
         {
@@ -59,6 +59,15 @@ namespace CheckList.Data
             context.SaveChanges();
         }
 
-
+        public void SetUnDone(int goalId)
+        {
+            var goal = context.goals.FirstOrDefault(x => x.Id == goalId);
+            if (goal == null)
+            {
+                return;
+            }
+            goal.Done = false;
+            context.SaveChanges();
+        }
     }
 }
