@@ -8,21 +8,43 @@
         <th>Done/Undone</th>
         <th></th>
     </tr>
+    <style>
+        td {
+            position: relative;
+            padding: 5px 10px;
+        }
+        tr.strikeout td:before {
+            content: " ";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            border-bottom: 1px solid #111;
+            width: 100%;
+        }
+    </style>
     @foreach (var g in Model)
     {
-        var style = (g.Done == true) ? "font-weight:bold" : "";
-<tr>
-    <td style="@style">@g.Id</td>
-    <td style="@style">@g.Description</td>
-    <td style="@style">@g.Duration</td>
-    <td style="@style">@g.Category</td>
-    <td style="@style">@g.Done</td>
-    <td>
-        <a class="btn btn-success" asp-action="SetDone" asp-route-id="@g.Id">Done</a>
-    </td>
-    <td>
-        <a class="btn btn-success" asp-action="SetUnDone" asp-route-id="@g.Id">Undo</a>
-    </td>
+        var style = (g.Done == true) ? "strikeout": "";
+<tr class="@style">
+    <td>@g.Id</td>
+    <td>@g.Description</td>
+    <td>@g.Duration</td>
+    <td>@g.Category</td>
+    <td>@g.Done</td>
+
+    @if (g.Done)
+    {
+        <td>
+            <a class="btn btn-primary" asp-action="SetUnDone" asp-route-id="@g.Id">Undo</a>
+        </td>
+    }
+    else
+    {
+        <td>
+            <a class="btn btn-success" asp-action="SetDone" asp-route-id="@g.Id">Done</a>
+        </td>
+    }
+
     <td>
         <a class="btn btn-success" asp-action="Remove" asp-route-id="@g.Id">Remove</a>
     </td>
