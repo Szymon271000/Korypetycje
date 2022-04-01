@@ -1,6 +1,7 @@
 ﻿using CheckList.Data;
 using CheckList.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -15,32 +16,45 @@ namespace CheckList.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ITaskRepository taskRepo;
         private List<Goal> Done = new List<Goal>();
+        private readonly ICategoryRepository categoryRepository;
 
-        public HomeController(ILogger<HomeController> logger, ITaskRepository taskRepository)
+        public HomeController(ILogger<HomeController> logger, ITaskRepository taskRepository, ICategoryRepository categoryRepository)
         {
             _logger = logger;
             this.taskRepo = taskRepository;
+            this.categoryRepository = categoryRepository;
         }
 
         public IActionResult Index()
         {
             return View();
+            var categories = categoryRepository.GetAllCategories();
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
         }
 
         [HttpPost]
         public IActionResult Index(TaskViewModel model)
         {
+            var categories = categoryRepository.GetAllCategories();
+            var cate = categories.Find(x => x.Id == model.cat);
+            if (cate == null)
+            {
+                return NotFound("Category not found");
+            }
             if (ModelState.IsValid)
             {
                 var goal = new Goal
                 {
                     Description = model.Description,
                     Duration = model.Duration,
-                    Category = model.Category
+                    Category = model.Category,
+                    cat = cate
+                    
                 };
                 taskRepo.AddTask(goal);
                 return RedirectToAction("Tasks");
             }
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(model);
         }
 

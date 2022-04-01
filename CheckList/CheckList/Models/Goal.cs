@@ -15,5 +15,7 @@ namespace CheckList.Models
 
         public bool Done { get; set; } = false;
 
+        public Category? cat { get; set; }
+
     }
 }

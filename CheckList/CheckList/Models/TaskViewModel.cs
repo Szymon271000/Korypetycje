@@ -14,5 +14,7 @@ namespace CheckList.Models
         public string Category { get; set; }
         [Required]
         public int Duration { get; set; }
+
+        public int cat { get; set; }
     }
 }

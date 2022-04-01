@@ -14,5 +14,7 @@ namespace CheckList.Data
         {
         }
         public DbSet<Goal> goals { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
