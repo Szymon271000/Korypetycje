@@ -1,4 +1,5 @@
 ﻿using Lekcja04._03_Sklep.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Lekcja04._03_Sklep.Data
 
         public List<Product> GetAllProducts()
         {
-            return context.Products.ToList();
+            return context.Products.Include(x => x.Category).ToList();
         }
 
         public void AddProduct(Product p)
@@ -28,7 +29,7 @@ namespace Lekcja04._03_Sklep.Data
 
         public Product GetProduct(int productId)
         {
-            return context.Products.FirstOrDefault(x => x.Id == productId);
+            return context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == productId);
         }
     }
 }

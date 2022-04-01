@@ -31,6 +31,8 @@ namespace Lekcja04._03_Sklep
 
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IOrderReposiotry, OrderReposiotry>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -51,6 +51,7 @@ namespace Lekcja04._03_Sklep.Data
             return context.OrderItems
                 .Include(x => x.Order)
                 .Include(x => x.Product)
+                .ThenInclude(x => x.Category)
                 .Where(x => x.Order.Id == order.Id).ToList();
         }
 

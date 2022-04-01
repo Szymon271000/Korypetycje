@@ -14,6 +14,9 @@ namespace Lekcja04._03_Sklep.Models
 
         [Required]
         public double Price { get; set; }
+
+        [Required]
+        public int Category { get; set; }
         
     }
 }

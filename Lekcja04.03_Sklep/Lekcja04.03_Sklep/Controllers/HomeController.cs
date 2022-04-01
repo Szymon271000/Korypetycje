@@ -2,6 +2,7 @@
 using Lekcja04._03_Sklep.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -14,12 +15,14 @@ namespace Lekcja04._03_Sklep.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IProductRepository productRepository;
         private readonly IOrderReposiotry orderReposiotry;
+        private readonly ICategoryRepository categoryRepository;
 
-        public HomeController(ILogger<HomeController> logger, IProductRepository productRepository, IOrderReposiotry orderReposiotry)
+        public HomeController(ILogger<HomeController> logger, IProductRepository productRepository, IOrderReposiotry orderReposiotry, ICategoryRepository categoryRepository)
         {
             _logger = logger;
             this.productRepository = productRepository;
             this.orderReposiotry = orderReposiotry;
+            this.categoryRepository = categoryRepository;
         }
 
         public override void OnActionExecuting(ActionExecutingContext context)
@@ -31,22 +34,34 @@ namespace Lekcja04._03_Sklep.Controllers
 
         public IActionResult Index()
         {
+            var categories = categoryRepository.GetAllCategories();
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View();
         }
 
         [HttpPost]
         public IActionResult Index(ProductModelView model)
         {
-            if(ModelState.IsValid)
+            var categories = categoryRepository.GetAllCategories();
+            var cat = categories.Find(x => x.Id == model.Category);
+            if(cat == null)
+            {
+                return NotFound("Category not found");
+            }
+
+            if (ModelState.IsValid)
             {
                 var product = new Product
                 {
                     Name = model.Name,
-                    Price = model.Price
+                    Price = model.Price,
+                    Category = cat
                 };
                 productRepository.AddProduct(product);
                 return RedirectToAction("Products");
             }
+
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(model);
         }
 

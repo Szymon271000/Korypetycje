@@ -6,6 +6,7 @@
     <tr>
         <th>Id</th>
         <th>Name</th>
+        <th>Category</th>
         <th>Price</th>
         <th></th>
     </tr>
@@ -14,6 +15,7 @@
         <tr>
             <td>@orderItem.Product.Id</td>
             <td>@orderItem.Product.Name</td>
+            <td>@orderItem.Product?.Category.Name</td>
             <td>@orderItem.Product.Price</td>
             <td>
                 <a asp-action="DeleteOrderItem" asp-route-id="@orderItem.Id" class="btn btn-danger">Usuń</a>

@@ -12,5 +12,7 @@ namespace Lekcja04._03_Sklep.Models
 
         public double Price { get; set; }
 
+        public Category? Category { get; set; }
+
     }
 }
